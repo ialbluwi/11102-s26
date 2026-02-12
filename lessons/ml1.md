@@ -75,13 +75,13 @@ In the context of machine learning, the experience usually comes in the form of 
 
 We are given a dataset of images of handwritten digits $$(0-9)$$ and are asked to use it to build a system that can take an image of a handwritten digit $$(0-9)$$ and predict which digit it is.
 
-<img src="/11102-f25/lessons/images/digits1.png" style="display:block; margin: 20px auto; width: 80%">
+<img src="/11102-s26/lessons/images/digits1.png" style="display:block; margin: 20px auto; width: 80%">
 
 This problem is a classical example of what is called **classification** in ML, where the goal is to assign an input (e.g., an image) to one of several categories (e.g., the digits $$0-9$$). Other examples of classification problems include classifying emails as spam or not spam, classifying product reviews as positive or negative, and classifying medical images as showing signs of a disease or not.
 
 In a classification problem, we have a dataset of **examples** that are already classified (labeled), which the system can **learn** from.
 
-<img src="/11102-f25/lessons/images/ml.png" style="display:block; margin: 20px auto; width: 80%">
+<img src="/11102-s26/lessons/images/ml.png" style="display:block; margin: 20px auto; width: 80%">
 
 
 ## The Dataset
@@ -97,7 +97,7 @@ Each image in the dataset is a $$28 \times 28$$ pixel grayscale image. The backg
 The images are organized in folders, where each folder corresponds to a digit $$(0-9)$$. The following screen recording shows the structure of the dataset:
 
 <video controls style="display:block; margin: 20px auto; width: 80%">
-  <source src="/11102-f25/lessons/images/mnist.mp4" type="video/mp4">
+  <source src="/11102-s26/lessons/images/mnist.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -121,7 +121,7 @@ def read_as_1D(filename):
     return list(image.getdata())             
 ```
 
-<img src="/11102-f25/lessons/images/flatten.png" style="display:block; margin: 20px auto; width: 80%">
+<img src="/11102-s26/lessons/images/flatten.png" style="display:block; margin: 20px auto; width: 80%">
 
 In many cases, we want to perform operations on all the pixel values of an image regardless of their 2D position (e.g., computing the average pixel value). Having a list of pixel values makes writing the code for such operations easier.
 
@@ -386,11 +386,11 @@ Our approach in Attempt # 1 can be split into two phases:
 
 - **Training phase**: In this phase, we learned from the training data by computing the average pixel value for each digit $$(0-9)$$. The result of this phase is a set of learned averages that we used for prediction. We will refer to these learned averages as our **model**.
 
-<img src="/11102-f25/lessons/images/training.png" style="display:block; margin: 20px auto; width: 80%">
+<img src="/11102-s26/lessons/images/training.png" style="display:block; margin: 20px auto; width: 80%">
 
 - **Testing phase**: In this phase, we used our learned model to make predictions on new images. To check how well our model performs, we checked the accuracy of our predictions on the images in the test set and computed an accuracy score.
 
-<img src="/11102-f25/lessons/images/testing.png" style="display:block; margin: 20px auto; width: 80%">
+<img src="/11102-s26/lessons/images/testing.png" style="display:block; margin: 20px auto; width: 80%">
 
 ### Shortcomings of Our Approach
 
@@ -401,7 +401,7 @@ The problem with our approach is that the model we learned is too simplistic:
 
 To improve our model, we need to use **more** and better features of the image (instead of the single value we are currently using), and use **a more sophisticated method** to combine these features to make predictions.
 
-<img src="/11102-f25/lessons/images/weights.png" style="display:block; margin: 20px auto; width: 80%">
+<img src="/11102-s26/lessons/images/weights.png" style="display:block; margin: 20px auto; width: 80%">
 
 What features should we consider? And how should we combine them? This is the essence of machine learning, and we will explore these questions in the next parts of this lesson.
 

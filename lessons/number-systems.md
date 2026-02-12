@@ -45,17 +45,17 @@ We can represent numbers in different ways. Here examples:
 
 - **Decimal** (Base 10): We can represent numbers using ten digits: `0, 1, 2, 3, 4, 5, 6, 7, 8, 9`. This is the most common number system used in everyday life. Each digit's position represents a power of `10`. For example, $$123$$ is calculated as: $$(1\times10^2) + (2\times10^1) + (3\times10^0) = 100 + 20 + 3 = 123$$, whereas $$231$$ is calculated as: $$(2\times10^2) + (3\times10^1) + (1\times10^0) = 200 + 30 + 1 = 231$$.
 
-<img src="/11102-f25/lessons/images/decimal.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/decimal.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 - **Binary** (Base 2): This number system uses only two digits: `0` and `1`. Each digit's position represents a power of `2`. For example, The number `101101` in binary represents: 
 
-<img src="/11102-f25/lessons/images/binary.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/binary.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 $$ (1\times2^5) + (0\times2^4) + (1\times2^3) + (1\times2^2) + (0\times2^1) + (1\times2^0) = 32 + 0 + 8 + 4 + 0 + 1 = 45 $$
 
 - **Hexadecimal** (Base 16): This number system uses sixteen digits: `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F`, where `A` to `F` represent the decimal values `10` to `15`. Each digit's position represents a power of `16`. For example, The number `2E3F` in hexadecimal represents:
 
-<img src="/11102-f25/lessons/images/hexadecimal.png" class="img-soft" style="display:block; margin: 20px auto; width: 65%;">
+<img src="/11102-s26/lessons/images/hexadecimal.png" class="img-soft" style="display:block; margin: 20px auto; width: 65%;">
 
 $$ (2\times16^3) + (14\times16^2) + (3\times16^1) + (15\times16^0) = 8192 + 3584 + 48 + 15 = 11839 $$
 
@@ -269,7 +269,7 @@ Here is a video summary of the conversions between binary and hexadecimal:
 
 Having the following table ready might help with conversions:
 
-<img src="/11102-f25/lessons/images/hex.png" class="img-soft" style="display:block; margin: 20px auto; width: 45%;">
+<img src="/11102-s26/lessons/images/hex.png" class="img-soft" style="display:block; margin: 20px auto; width: 45%;">
 
 ---
 

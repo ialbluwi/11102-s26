@@ -13,8 +13,8 @@ author: Ibrahim Albluwi
 The goal of this lecture is just to engage the students, get them excited about the course, and give them a high level overview of what to expect. You can lead this lecture in whatever way you like, but I will share below one suggested outline.
 
 The outline below uses the following resources:
-- [Slides](/11102-f25/lessons/slides/Day1.pdf)
-- [Heavy Box Game](/11102-f25/assets/demos/boxes.html)
+- [Slides](/11102-s26/lessons/slides/Day1.pdf)
+- [Heavy Box Game](/11102-s26/assets/demos/boxes.html)
 - [Intelligent Paper](https://drive.google.com/drive/folders/1XFpdOEGN5ltiIlHmvWoFIs30WTTrWGb9?usp=sharing)
 
 If all sections end up using this outline, I will share the slides and the game link on the course website (after removing the slides that are specific to me).

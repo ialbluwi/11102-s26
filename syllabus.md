@@ -9,7 +9,7 @@ seo:
 
 # 11102: Introduction to Computing
 {:.no_toc}
-<span style="font-size: 0.8em; font-weight: normal; color: gray;">Princess Sumaya University for Technology - Fall 2025</span>
+<span style="font-size: 0.8em; font-weight: normal; color: gray;">Princess Sumaya University for Technology - Spring 2026</span>
 {:.no_toc}
 
 ## Table of contents
@@ -30,7 +30,7 @@ No prior programming experience is expected. Just bring your curiosity, a commit
 
 ## Textbooks
 
-We will use the following two textbooks, both of which are available online for free. We will also use slides, notes, and other resources as necessary. The <a href='/11102-f25/schedule'>Schedule</a> page will learning material and which chapter(s) from which book are required.
+We will use the following two textbooks, both of which are available online for free. We will also use slides, notes, and other resources as necessary. The <a href='/11102-s26/schedule'>Schedule</a> page will learning material and which chapter(s) from which book are required.
 
 <div style="display: flex; align-items: center; gap: 1em; margin-bottom: 1.5em; margin-top: 1em;">
 <img src="assets/images/books/python4everybody.jpg" alt="Python4Everybody Book Cover" width="100"/>
@@ -80,7 +80,7 @@ The first 7 weeks of the semester will focus on programming in Python. Each of t
            <td>Two quizzes done in class, each worth 6%.</td></tr>
       <tr> <td>Assignments</td>   
            <td>8%</td>       
-           <td>Details will be posted on the <a href='/11102-f25/assignments'>Assignments</a> page.</td></tr>
+           <td>Details will be posted on the <a href='/11102-s26/assignments'>Assignments</a> page.</td></tr>
       <tr> <td>Midterm Exam</td>     
            <td>30%</td>       
            <td>The exact date and time will be set by the university.</td></tr>

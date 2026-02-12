@@ -14,4 +14,4 @@ The goal of this lecture is to introduce `while` loops, infinite loops, `break`,
 
 ## Lecture Outline
 
-You can use the examples in the student [notes](/11102-f25/lessons/while-loops) and/or the examples in P4E 5.1 - 5.4 to achieve the above goals.
+You can use the examples in the student [notes](/11102-s26/lessons/while-loops) and/or the examples in P4E 5.1 - 5.4 to achieve the above goals.

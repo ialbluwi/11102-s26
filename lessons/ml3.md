@@ -130,13 +130,13 @@ Now that we understand weighted sums, we can introduce a simple model called the
 
 A perceptron for the digit `0` is a predictor that takes in an image (represented as a 1D list of pixel values) and produces a score that indicates how likely the image is to be the digit `0`. 
 
-<img src="/11102-f25/lessons/images/perceptron.png" style="display:block; margin: 20px auto; width: 60%">
+<img src="/11102-s26/lessons/images/perceptron.png" style="display:block; margin: 20px auto; width: 60%">
 
 The higher the positive score, the more confident the perceptron is that the image is a `0`. The lower (more negative) the score, the more confident it is that the image is not a `0`.
 
 A perceptron is analogous to a biological neuron in the brain, which receives signals from other neurons. If the **combination** of these signals is **strong enough**, the neuron gets activated and sends a signal to other neurons.
 
-<img src="/11102-f25/lessons/images/neuron.png" style="display:block; margin: 20px auto; width: 80%">
+<img src="/11102-s26/lessons/images/neuron.png" style="display:block; margin: 20px auto; width: 80%">
 
 ### Perceptron Implementation
 
@@ -149,7 +149,7 @@ Suppose someone gives us a function named `get_weights` that returns a list of w
 
 Using such weights, we can implement the perceptron for digit `0` simply by computing the weighted sum of the pixel values using these weights.
 
-<img src="/11102-f25/lessons/images/perceptron2.png" style="display:block; margin: 20px auto; width: 60%">
+<img src="/11102-s26/lessons/images/perceptron2.png" style="display:block; margin: 20px auto; width: 60%">
 
 **Examples**
 
@@ -190,7 +190,7 @@ score_B =   10     15     20     ...  -5   -10   -8
 
 To be able to classify any digit, we need a perceptron for each digit $$(0-9)$$. Each perceptron will act as a judge or expert that evaluates whether the input image corresponds to its digit or not. The digit with the highest positive score will be our final prediction.
 
-<img src="/11102-f25/lessons/images/perceptron3.png" style="display:block; margin: 20px auto; width: 90%">
+<img src="/11102-s26/lessons/images/perceptron3.png" style="display:block; margin: 20px auto; width: 90%">
 
 ### Implementation
 
@@ -271,7 +271,7 @@ By repeating this process for all images in the training set, the perceptron wil
 To see how this training process works, try the following interactive simulation:
 
 <p style="text-align:center; margin: 40px 0;">
-  <a href="/11102-f25/lessons/code/perceptron.html" target="_blank">
+  <a href="/11102-s26/lessons/code/perceptron.html" target="_blank">
     <strong>Interactive Demo:</strong> Train Your Own Perceptron →
   </a><br>
   <span style="color:#666;">Watch a neuron learn to recognize digits in real time.</span>
@@ -335,7 +335,7 @@ In such cases, training the model could take days or even weeks on a regular com
 
 Can you imagine how much time, data, and computational power it takes to train something like ChatGPT?
 
-<img src="/11102-f25/lessons/images/power-usage-trend.png" style="display:block; margin: 20px auto; width: 100%">
+<img src="/11102-s26/lessons/images/power-usage-trend.png" style="display:block; margin: 20px auto; width: 100%">
 
 The chart above shows how much electrical power (in megawatts) is consumed by training various AI models over the years.
 

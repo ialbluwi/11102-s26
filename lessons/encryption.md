@@ -69,7 +69,7 @@ Imagine some of your sensitive information (like your password or credit card nu
 
 ### Availability
 
-<img alt="Dyn Logo" src="/11102-f25/lessons/images/dyn.png" style="display:block; margin: 20px auto; width: 95%;">
+<img alt="Dyn Logo" src="/11102-s26/lessons/images/dyn.png" style="display:block; margin: 20px auto; width: 95%;">
 
 In 2016, the [Dyn attack](https://en.wikipedia.org/wiki/2016_Dyn_cyberattack) disrupted access to major websites like Twitter, Netflix, PayPal, HBO, Airbnb, and Reddit. These companies used a company named Dyn for a critical operation: translating human-friendly domain names (like `twitter.com`) into IP addresses that computers use to identify each other on the network. Attackers created a massive network of compromised computers and used them to overwhelm Dyn's servers with requests, making their services unavailable. 
 
@@ -227,7 +227,7 @@ In the 9th century, [Al-Kindi](https://en.wikipedia.org/wiki/Al-Kindi) pioneered
 The work of Al-Kindi is considered to have paved the way for modern [cryptanalysis](https://en.wikipedia.org/wiki/Cryptanalysis). 
 
 Here is a table showing the English language letter frequency:
-<img alt="alt text" src="/11102-f25/lessons/images/frequency.png" class="img-soft" style="display:block; margin: 20px auto; width: 75%;">
+<img alt="alt text" src="/11102-s26/lessons/images/frequency.png" class="img-soft" style="display:block; margin: 20px auto; width: 75%;">
 
 
 ### One Time Pads
@@ -312,7 +312,7 @@ Here is a simple illustration of how public key cryptography works:
 3. You will see information about the website's _certificate_, which includes a public
     key.
 
-<img alt="SSL Certificate" src="/11102-f25/lessons/images/public-key.png" class="img-soft" style="display:block; margin: 20px auto; width: 75%;">
+<img alt="SSL Certificate" src="/11102-s26/lessons/images/public-key.png" class="img-soft" style="display:block; margin: 20px auto; width: 75%;">
 
 This key is the public key of `portal.psut.edu.jo`. Your browser uses this public key to encrypt any sensitive information (like your username and password) before sending it to the website. Only the website, which has the corresponding private key, can decrypt this information.
 

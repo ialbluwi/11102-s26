@@ -8,7 +8,7 @@ Feb 22
 
 Feb 24
 : Conditionals (practice)
-  : [Notes](/11102-f25/lessons/conditionals/)<br>
+  : [Notes](/11102-s26/lessons/conditionals/)<br>
 
 Feb 26
 : Functions 1

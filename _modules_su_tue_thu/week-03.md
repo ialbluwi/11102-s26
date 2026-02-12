@@ -4,15 +4,15 @@ title: <b>Week 3</b> (Functions + Iteration)
 
 Mar 1
 : Functions 2
-  : [Notes](/11102-f25/lessons/functions2)
+  : [Notes](/11102-s26/lessons/functions2)
 
 Mar 3
 : Iteration (for loops)
-  : [For-Loops](/11102-f25/lessons/for-loops)
+  : [For-Loops](/11102-s26/lessons/for-loops)
 
 Mar 5
 : Iteration (while loops)
-  : [While-Loops](/11102-f25/lessons/while-loops)<br>
+  : [While-Loops](/11102-s26/lessons/while-loops)<br>
   [P4E.5](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=69) (5.1-5.4)
 
 HW

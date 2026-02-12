@@ -145,7 +145,7 @@ So, what is going on here? Why is the second method so much slower than the firs
 
 - Python reserves extra space, so that appending to the end of the list (using `append` or `+=`) can be done quickly in the next available empty slot in the list.
 
-<img src="/11102-f25/lessons/images/dynamic-array.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/dynamic-array.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 - Adding to the beginning of the list is not easy, because there are no empty slots! The operation `numbers = [randint(1, 100)] + numbers` creates _a new list_ and copies all the elements from the original list to the new list with the new element added     at the beginning. 
 
@@ -192,7 +192,7 @@ From these observations, we can make a rough prediction of the running time for 
 
 We definitely do not want to run the program for one billion numbers. If takes around a minute for $$160,000$$ numbers, who knows how long it will take for one billion!
 
-Instead, we will download and use [time_plot.py](/11102-f25/lessons/code/time_plot.py), which allows making time predictions based on previous running times. Using the tool, we get the following predictions for $$N=1,000,000,000$$:
+Instead, we will download and use [time_plot.py](/11102-s26/lessons/code/time_plot.py), which allows making time predictions based on previous running times. Using the tool, we get the following predictions for $$N=1,000,000,000$$:
 
 - **Appending**: $$4.67$$ minutes.
 - **Prepending**: $$19.41$$ years.
@@ -387,7 +387,7 @@ Can you think of a more efficient way to count the number of distinct elements i
 
 Since equal elements are adjacent, we can simply iterate through the sorted list and count how many times we encounter a new element. 
 
-<img src="/11102-f25/lessons/images/distinct.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/distinct.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 Here is the modified code:
 

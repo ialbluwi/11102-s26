@@ -35,9 +35,9 @@ Live-code this exercise, or any other similar `if-elif-else` example of your cho
 
 Present the following slide on the screen. Ask students to spend ~4 minutes in pairs to check which of the four pieces of code is correct. All the pieces of code are supposed to print the letter grade given a numerical value.
 
-![Comic: My Password is Password123](/11102-f25/lesson-plans/images/conditionals.png)<br>
-[PDF Version](/11102-f25/lesson-plans/images/conditionals.pdf)<br>
-[PDF Version (with notes)](/11102-f25/lesson-plans/images/conditionals-notes.pdf)
+![Comic: My Password is Password123](/11102-s26/lesson-plans/images/conditionals.png)<br>
+[PDF Version](/11102-s26/lesson-plans/images/conditionals.pdf)<br>
+[PDF Version (with notes)](/11102-s26/lesson-plans/images/conditionals-notes.pdf)
 
 Discuss the bugs in the upper two versions and the style issue in the fourth one (the unnecessary use of the `and` clause).
 

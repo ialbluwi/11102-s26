@@ -157,13 +157,13 @@ pytest test_calculator.py
 
 Pytest will run every function in `test_calculator.py` that starts with `test` (any function that does not start with `test` will be ignored by `pytest`). You’ll immediately notice that output will be provided.  
 
-<img src="/11102-f25/lessons/images/pytest1.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/pytest1.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 Notice the red `F` near the top of the output, indicating that something in your code failed. Further, notice that the red `E` provides some hints about the errors in your `calculator.py` program. Based upon the output, you can imagine a scenario where `3 * 3` has outputted `6` instead of `9`. 
 
 Now, let's fix the error in our `calculator.py` and run `pytest test_calculator.py` again. Notice that no errors are produced. Congratulations!
 
-<img src="/11102-f25/lessons/images/pytest2.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/pytest2.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 ## Organizing Tests
     
@@ -188,11 +188,11 @@ Notice that we have divided the same five tests into three different functions. 
 
 Modify `calculator.py` back to the buggy code and then run `pytest test_calculator.py`. You will notice that many more errors are being displayed. More error output allows you to further explore what might be producing the problems within your code.
 
-<img src="/11102-f25/lessons/images/pytest3.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/pytest3.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 Having improved our test code, return your `calculator.py` code to fully working order. Re-running `pytest test_calculator.py`, you will notice that no errors are found.
 
-<img src="/11102-f25/lessons/images/pytest4.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/pytest4.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 ## Testing Strings
 
@@ -334,7 +334,7 @@ The above tests are organized into separate functions. This organization helps i
 
 Let's run the tests using `pytest`:
 
-<img src="/11102-f25/lessons/images/pytest5.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/pytest5.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 We can comfortably now move forward knowing that our `count_distinct` function works as expected across a variety of scenarios. 
 
@@ -427,7 +427,7 @@ def test_non_anagram_strings():
 
 Let's run the tests using `pytest`:
 
-<img src="/11102-f25/lessons/images/pytest6.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/pytest6.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 Unfortunately, one of our tests failed. The test that failed is the one checking if `are_anagrams("hello there", "hello, there!")` returns `False`. Our assumption is that the function should not ignore punctuation, whitespaces, and cases. However, we did not mention this in our prompt to the AI tool. It seems that the AI tool assumed that we wanted to ignore these factors. This is a reasonable assumption. It is our fault for not being specific enough in our prompt.
 
@@ -458,7 +458,7 @@ def are_anagrams(str1, str2):
 
 Now the code is much shorter! Would this code pass all our tests? Let's run `pytest test_anagrams.py` again:
 
-<img src="/11102-f25/lessons/images/pytest7.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/pytest7.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 All tests pass successfully!
 

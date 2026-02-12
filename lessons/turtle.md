@@ -48,7 +48,7 @@ t.right(90)
 
 <center>
 <video width="400" height="400" autoplay loop muted playsinline>
-  <source src="/11102-f25/lessons/videos/1.mov" type="video/mp4">
+  <source src="/11102-s26/lessons/videos/1.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 </center>
@@ -130,7 +130,7 @@ for _ in range(8):
 <details class="jtd-accordion">
   <summary>Answer</summary>
     <video width="400" height="400" autoplay loop muted playsinline>
-        <source src="/11102-f25/lessons/videos/3.mov" type="video/mp4">
+        <source src="/11102-s26/lessons/videos/3.mov" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </details>
@@ -149,7 +149,7 @@ for _ in range(36):
 <details class="jtd-accordion">
   <summary>Answer</summary>
     <video width="400" height="400" autoplay loop muted playsinline>
-        <source src="/11102-f25/lessons/videos/4.mov" type="video/mp4">
+        <source src="/11102-s26/lessons/videos/4.mov" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </details>
@@ -169,7 +169,7 @@ for _ in range(36):
 <details class="jtd-accordion">
   <summary>Answer</summary>
     <video width="400" height="400" autoplay loop muted playsinline>
-        <source src="/11102-f25/lessons/videos/5.mov" type="video/mp4">
+        <source src="/11102-s26/lessons/videos/5.mov" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </details>
@@ -192,7 +192,7 @@ while True:
 <details class="jtd-accordion">
   <summary>Answer</summary>
     <video width="400" height="400" autoplay loop muted playsinline>
-        <source src="/11102-f25/lessons/videos/6.mov" type="video/mp4">
+        <source src="/11102-s26/lessons/videos/6.mov" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </details>
@@ -208,7 +208,7 @@ while True:
 <details class="jtd-accordion">
   <summary>Answer</summary>
     <video width="400" height="400" autoplay loop muted playsinline>
-        <source src="/11102-f25/lessons/videos/7.mov" type="video/mp4">
+        <source src="/11102-s26/lessons/videos/7.mov" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </details>
@@ -278,7 +278,7 @@ Let's draw the following shape:
 
 <center>
 <video width="250" height="250" autoplay loop muted playsinline>
-    <source src="/11102-f25/lessons/videos/8.mov" type="video/mp4">
+    <source src="/11102-s26/lessons/videos/8.mov" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 </center>

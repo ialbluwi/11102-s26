@@ -79,7 +79,7 @@ image.show()
 
 This should open the image in your default image viewer. You should see the following image:
 
-<img src="/11102-f25/lessons/images/wikipedia-balls.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
+<img src="/11102-s26/lessons/images/wikipedia-balls.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
 
 ### Resizing and Rotation
 
@@ -114,7 +114,7 @@ image.save('C:\\Users\\YourUsername\\Pictures\\processed-image.jpg')
 
 An animation is simply a sequence of images displayed quickly one after another. We can create animations by generating a series of images and saving them together into a single **GIF** File. GIF is a popular format that supports simple animations like the following:
 
-<img src="/11102-f25/lessons/images/rotation_animation.gif" class="img-soft" style="display:block; margin: 20px auto; width:50%;" />
+<img src="/11102-s26/lessons/images/rotation_animation.gif" class="img-soft" style="display:block; margin: 20px auto; width:50%;" />
 
 To create such an animation, the idea is simple: We will rotate the image, save it as a frame, rotate it again, save the next frame, and so on. Finally, we will combine all the frames into a single GIF file.
 
@@ -179,7 +179,7 @@ image.save('no_red_channel.jpg')
 
 The result should look like this:
 
-<img src="/11102-f25/lessons/images/no_red_channel.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
+<img src="/11102-s26/lessons/images/no_red_channel.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
 
 Try modifying the code to remove the green or blue channels instead!
 
@@ -204,7 +204,7 @@ for x in range(image.width):
 image.save('grayscale_image.jpg')
 ```
 
-<img src="/11102-f25/lessons/images/grayscale_image.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
+<img src="/11102-s26/lessons/images/grayscale_image.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
 
 ## Changing Color Brightness
 
@@ -241,7 +241,7 @@ image = Image.open('wikipedia-balls.jpg')
 brighter_image = change_brightness(image, 2.0)
 brighter_image.save('brighter_image.jpg')
 ```
-<img src="/11102-f25/lessons/images/brighter_image.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
+<img src="/11102-s26/lessons/images/brighter_image.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
 
 Or a darker version:
 ```python
@@ -249,7 +249,7 @@ darker_image = change_brightness(image, 0.5)
 darker_image.save('darker_image.jpg')
 ```
 
-<img src="/11102-f25/lessons/images/darker_image.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
+<img src="/11102-s26/lessons/images/darker_image.jpg" class="img-soft" style="display:block; margin: 20px auto; width:50%" />
 
 
 ## Fun With Animation
@@ -282,7 +282,7 @@ This code calls the `change_brightness` function 101 times with increasing brigh
 
 Here is the resulting animation:
 
-<img src="/11102-f25/lessons/images/fade_in_animation.gif" class="img-soft" style="display:block; margin: 20px auto; width:50%"/>
+<img src="/11102-s26/lessons/images/fade_in_animation.gif" class="img-soft" style="display:block; margin: 20px auto; width:50%"/>
 
 **Exercise**: Modify the code to create a fade-out animation, where the image gradually fades to black.
 
@@ -336,7 +336,7 @@ This code creates an animation that transitions from the original color image to
 
 Here is the resulting animation:
 
-<img src="/11102-f25/lessons/images/mystery_animation.gif" class="img-soft" style="display:block; margin: 20px auto; width:50%"/>
+<img src="/11102-s26/lessons/images/mystery_animation.gif" class="img-soft" style="display:block; margin: 20px auto; width:50%"/>
 
 **Exercise**: Try with different images to see how the effect changes. Make sure the images are of the same size, or resize them before using them in the animation.
 

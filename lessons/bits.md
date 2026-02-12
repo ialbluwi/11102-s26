@@ -128,7 +128,7 @@ Using a calculator, we find that $$\log_2(2026) \approx 10.98$$. Since $$n$$ mus
 
 Since we can't directly store letters and characters on a computer, we store them as numbers. One common way to do this is using the **ASCII** (American Standard Code for Information Interchange) encoding system. In ASCII, each character is assigned a unique number between 0 and 127. For example:
 
-<img src="/11102-f25/lessons/images/ascii.png" class="img-soft" style="display:block; margin: 20px auto;">
+<img src="/11102-s26/lessons/images/ascii.png" class="img-soft" style="display:block; margin: 20px auto;">
 
 As you can see from the table above:
 - `A` is represented by the number 65.

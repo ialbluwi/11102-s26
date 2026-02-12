@@ -26,7 +26,7 @@ Cover everything in [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlea
 - String Methods. Don't cover everything. Tell them that they should look at the book to see what methods are available. Briefly mention/demo methods like: `upper`, `lower`, `islower`, `isupper`, `isalpha`, `isnumeric`, and `strip`. Do not mention functions like `split` because they require lists.
 
 ## Notes
-- You can use [this visualization](/11102-f25/lesson-plans/images/slicing.png) when explaining string slicing.
+- You can use [this visualization](/11102-s26/lesson-plans/images/slicing.png) when explaining string slicing.
 
 - Don't waste time taking attendence this lecture. You are recording attendance anyway using the quiz papers!
 

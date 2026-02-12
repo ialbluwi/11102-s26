@@ -58,7 +58,7 @@ In primary school, you might have mixed paints of different (primary) colors to 
 
 Try the RGB mixer below to see how different combinations of red, green, and blue light create different colors:
 
-<iframe src="/11102-f25/lessons/rgb-mixer.html"
+<iframe src="/11102-s26/lessons/rgb-mixer.html"
         style="width: 100%; height: 360px; border: none;">
 </iframe>
 
@@ -153,7 +153,7 @@ While 16.7 million colors may seem like a lot, the human eye can distinguish mil
 
 To appreciate the difference between color depths and shades the eye can perceive, try the color matching challenge below. Your task is to adjust the 8-bit color sliders to match the given 24-bit color as closely as possible.
 
-<iframe src="/11102-f25/lessons/color-matcher.html"
+<iframe src="/11102-s26/lessons/color-matcher.html"
         style="width: 100%; height: 520px; border: none;">
 </iframe>
 

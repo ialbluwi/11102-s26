@@ -17,4 +17,4 @@ This is the second lecture on Strings. The goal is to show examples of:
 
 ## Lecture Outline
 
-Go through the [examples](/11102-f25/lessons/strings) posted on the course website. If you are done early, go through anything related to strings and string iteration.
+Go through the [examples](/11102-s26/lessons/strings) posted on the course website. If you are done early, go through anything related to strings and string iteration.

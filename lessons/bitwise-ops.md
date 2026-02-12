@@ -68,7 +68,7 @@ We will explain each operation in detail below.
 
 Here is the **truth table** for the AND operation:
 
-<img src="/11102-f25/lessons/images/and.png" class="img-soft" style="display:block; margin: 20px auto; width:50%;" />
+<img src="/11102-s26/lessons/images/and.png" class="img-soft" style="display:block; margin: 20px auto; width:50%;" />
 
 **Example**
 
@@ -109,7 +109,7 @@ Note that in Python the `0b` prefix means that the number is in binary. Note als
 
 Here is the **truth table** for the OR operation:
 
-<img src="/11102-f25/lessons/images/or.png" class="img-soft" style="display:block; margin: 20px auto; width:50%;" />
+<img src="/11102-s26/lessons/images/or.png" class="img-soft" style="display:block; margin: 20px auto; width:50%;" />
 
 **Example**
 
@@ -148,7 +148,7 @@ This operation is also known as **exclusive or** because it excludes the case wh
 
 Here is the **truth table** for the XOR operation:
 
-<img src="/11102-f25/lessons/images/xor.png" class="img-soft" style="display:block; margin: 20px auto; width:50%;" />
+<img src="/11102-s26/lessons/images/xor.png" class="img-soft" style="display:block; margin: 20px auto; width:50%;" />
 
 **Example**
 

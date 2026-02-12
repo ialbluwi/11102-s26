@@ -5,7 +5,7 @@ title: <b>Week 2</b> (Conditionals + Functions)
 Feb 23
 : Conditionals (basics)
   : [P4E.3](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=43) (excluding 3.7)<br>
-    [Notes](/11102-f25/lessons/conditionals/)
+    [Notes](/11102-s26/lessons/conditionals/)
 
 Feb 25
 : Functions 1

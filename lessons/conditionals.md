@@ -35,7 +35,7 @@ You'd like to write a program that reads a student's grade and prints the corres
 {: .note }
 <br>
 
-![Comic: My Password is Password123](/11102-f25/lesson-plans/images/conditionals-gen.png)<br>
+![Comic: My Password is Password123](/11102-s26/lesson-plans/images/conditionals-gen.png)<br>
 
 <details class="jtd-accordion">
   <summary>Solution</summary>

@@ -14,4 +14,4 @@ The goal of this lecture is to expose students to programs involving nested loop
 
 ## Lecture Outline
 
-You can use the examples in the student [notes](/11102-f25/lessons/nested-loops). Be prepared with a few more examples, just in case you finish these examples early.
+You can use the examples in the student [notes](/11102-s26/lessons/nested-loops). Be prepared with a few more examples, just in case you finish these examples early.

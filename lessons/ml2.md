@@ -64,7 +64,7 @@ Here is what we will do to include the location of pixels in our model:
 
 - **Learning Phase**: We will use the training set to learn the average pixel value at each pixel position. This gives us a _prototype_ image for each digit (a 1D list of $$28\times28=784$$ average pixel values).
 
-<img src="/11102-f25/lessons/images/attempt2.png" style="display:block; margin: 20px auto; width: 80%">
+<img src="/11102-s26/lessons/images/attempt2.png" style="display:block; margin: 20px auto; width: 80%">
 
 - **Prediction Phase**: When asked to predict the digit in a new image, we will compute the difference (distance) between the pixel values of the image and each prototype image for the digits $$(0-9)$$. The predicted digit will be the one whose prototype image is closest to the new image (minimum distance).
 
@@ -74,7 +74,7 @@ Using this approach, if a digit tends to have more dark pixels in certain locati
 
 Let's start by implementing a function that goes through all the images in the training set for a single digit and computes the average pixel value at each pixel position.
 
-<img src="/11102-f25/lessons/images/get_prototype.png" style="display:block; margin: 20px auto; width: 100%">
+<img src="/11102-s26/lessons/images/get_prototype.png" style="display:block; margin: 20px auto; width: 100%">
 
 
 ```python
@@ -132,7 +132,7 @@ The result is a list of $$10$$ prototype images, each represented as a 1D list o
 
 The following is a visualization of the prototype images for all digits:
 
-<img src="/11102-f25/lessons/images/prototypes.png" style="display:block; margin: 20px auto; width: 70%">
+<img src="/11102-s26/lessons/images/prototypes.png" style="display:block; margin: 20px auto; width: 70%">
 
 The blurry parts in the images represent where the digit is likely to have white pixels. This is exactly what we want!
 
