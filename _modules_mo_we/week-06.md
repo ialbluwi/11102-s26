@@ -1,15 +1,18 @@
 ---
-title: <b>Week 6</b> (Lists)
+title: <b>Week 6</b> (EID BREAK)
 ---
 
-Nov 10
-: Lists (practice)
-  : [Examples (part 1)](/11102-f25/lessons/list-examples1)
+Feb 16
+: <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
+  EID BREAK
+</span>
 
-Nov 12
-: Lists (practice)
-  : [Examples (part 2)](/11102-f25/lessons/list-examples2)<br>
-  [Examples (part 3)](/11102-f25/lessons/list-examples3)
+Feb 18
+: <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
+  EID BREAK
+</span>
 
-HW
-: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/151998) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/151999)
+Feb 18
+: <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
+  EID BREAK
+</span>

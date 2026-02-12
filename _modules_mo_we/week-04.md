@@ -2,11 +2,11 @@
 title: <b>Week 4</b> (Iteration)
 ---
 
-Oct 27
+Mar 9
 : Iteration (nested loops)
   : [Notes](/11102-f25/lessons/nested-loops)
 
-Oct 29
+Mar 11
 : Iteration (Turtle Graphics)
   : [Practice](/11102-f25/lessons/loops-practice)<br>
   [Turtle Graphics](/11102-f25/lessons/turtle)

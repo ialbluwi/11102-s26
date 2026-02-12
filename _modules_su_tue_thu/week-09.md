@@ -1,14 +1,18 @@
 ---
-title: <b>Week 9</b> (Midterms + Algorithms)
+title: <b>Week 8</b> (Testing & SE)
 ---
 
-Nov 30
-: Program Efficiency
-    : [Notes](/11102-f25/lessons/efficiency/)
+Apr 5
+: Introduction to Sofware Engineering
+    : [Slides](/11102-f25/lessons/slides/SE-Intro.pdf)<br>
 
-Dec 2
-: Program Efficiency
-    : [Notes](/11102-f25/lessons/efficiency/)
+Apr 7
+: Testing (Introduction)
+    : [Slides](/11102-f25/lessons/slides/Testing-Intro.pdf)<br>
 
-Dec 4
-: Review
+Apr 9
+: Testing (Practice)
+    : [Notes](/11102-f25/lessons/pytest)<br>
+
+HW
+: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/152909) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/152910)

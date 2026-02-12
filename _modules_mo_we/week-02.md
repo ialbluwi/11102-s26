@@ -2,12 +2,12 @@
 title: <b>Week 2</b> (Conditionals + Functions)
 ---
 
-Oct 13
+Feb 23
 : Conditionals (basics)
   : [P4E.3](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=43) (excluding 3.7)<br>
     [Notes](/11102-f25/lessons/conditionals/)
 
-Oct 15
+Feb 25
 : Functions 1
   : [P4E.4](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=55)
 

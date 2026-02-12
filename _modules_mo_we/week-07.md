@@ -1,15 +1,15 @@
 ---
-title: <b>Week 7</b> (2D Lists + Dictionaries)
+title: <b>Week 6</b> (Lists)
 ---
 
-Nov 17
-: Copying Lists + 2D Lists
-    : [Aliasing vs. Copying](/11102-f25/lessons/list-copying)
-    <br>[2D Lists](/11102-f25/lessons/lists-of-lists)
+Mar 23
+: Lists (practice)
+  : [Examples (part 1)](/11102-f25/lessons/list-examples1)
 
-Nov 19
-: Dictionaries
-    : [Notes](/11102-f25/lessons/dictionaries)
+Mar 25
+: Lists (practice)
+  : [Examples (part 2)](/11102-f25/lessons/list-examples2)<br>
+  [Examples (part 3)](/11102-f25/lessons/list-examples3)
 
 HW
-: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/152396) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/152397)
+: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/151998) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/151999)

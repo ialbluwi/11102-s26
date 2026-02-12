@@ -1,13 +1,13 @@
 ---
-title: <b>Week 13</b> 
+title: <b>Week 12</b> (Images & Animation)
 ---
 
-Dec 29
-: <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
-  WINTER BREAK
-</span>
+May 4
+: Images & Colors + [**Quiz # 2**{:.label .label-red }](#)
+  : [Notes](/11102-f25/lessons/images)
 
-Dec 31
-: <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
-  WINTER BREAK
-</span>
+May 6
+: Image Manipulation & Animation
+  : [Notes](/11102-f25/lessons/images-python)
+
+  

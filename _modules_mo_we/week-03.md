@@ -2,11 +2,11 @@
 title: <b>Week 3</b> (Functions + Iteration)
 ---
 
-Oct 20
+Mar 2
 : Functions 2
   : [Notes](/11102-f25/lessons/functions2)
 
-Oct 22
+Mar 4
 : Iteration
   : [For-Loops (Notes)](/11102-f25/lessons/for-loops)<br>
     [While-Loops (Notes)](/11102-f25/lessons/while-loops)<br>

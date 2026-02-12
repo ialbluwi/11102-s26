@@ -1,18 +1,18 @@
 ---
-title: <b>Week 8</b> (Testing & SE)
+title: <b>Week 7</b> (2D Lists + Dictionaries)
 ---
 
-Nov 23
-: Introduction to Sofware Engineering
-    : [Slides](/11102-f25/lessons/slides/SE-Intro.pdf)<br>
+Mar 29
+: Aliasing vs. Copying
+    : [Notes](/11102-f25/lessons/list-copying)
 
-Nov 25
-: Testing (Introduction)
-    : [Slides](/11102-f25/lessons/slides/Testing-Intro.pdf)<br>
-
-Nov 27
-: Testing (Practice)
-    : [Notes](/11102-f25/lessons/pytest)<br>
+Mar 31
+: 2D Lists
+    : [Notes](/11102-f25/lessons/lists-of-lists)
+    
+Apr 2
+: Dictionaries
+    : [Notes](/11102-f25/lessons/dictionaries)
 
 HW
-: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/152909) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/152910)
+: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/152396) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/152397)

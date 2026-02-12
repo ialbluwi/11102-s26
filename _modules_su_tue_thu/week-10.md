@@ -1,18 +1,14 @@
 ---
-title: <b>Week 10</b> (Data Representation)
+title: <b>Week 9</b> (Midterms + Algorithms)
 ---
 
-Dec 7
-: Number Systems
-    : [Notes](/11102-f25/lessons/number-systems/)
+Apr 12
+: Program Efficiency
+    : [Notes](/11102-f25/lessons/efficiency/)
 
-Dec 9
-: Data Representation 1
-    : [Notes](/11102-f25/lessons/bits/)<br>
-  
-Dec 11
-: Data Representation 2
-    : [Notes](/11102-f25/lessons/negative/)
+Apr 14
+: Program Efficiency
+    : [Notes](/11102-f25/lessons/efficiency/)
 
-HW
-: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/153612) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/153613)
+Apr 16
+: Review

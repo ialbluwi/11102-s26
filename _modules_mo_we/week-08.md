@@ -1,14 +1,15 @@
 ---
-title: <b>Week 8</b> (Testing & SE)
+title: <b>Week 7</b> (2D Lists + Dictionaries)
 ---
 
-Nov 24
-: Software Engineering and Testing
-  : [Slides](/11102-f25/lessons/slides/SE.pdf)
+Mar 30
+: Copying Lists + 2D Lists
+    : [Aliasing vs. Copying](/11102-f25/lessons/list-copying)
+    <br>[2D Lists](/11102-f25/lessons/lists-of-lists)
 
-Nov 26
-: Testing & Pytest
-  : [Notes](/11102-f25/lessons/pytest)<br>
+Apr 1
+: Dictionaries
+    : [Notes](/11102-f25/lessons/dictionaries)
 
 HW
-: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/152909) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/152910)
+: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/152396) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/152397)

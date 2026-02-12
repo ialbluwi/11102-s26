@@ -1,10 +1,14 @@
 ---
-title: <b>Week 9</b> (Midterms + Algorithms)
+title: <b>Week 8</b> (Testing & SE)
 ---
 
-Dec 1
-: Program Efficiency
-  : [Notes](/11102-f25/lessons/efficiency/)
+Apr 6
+: Software Engineering and Testing
+  : [Slides](/11102-f25/lessons/slides/SE.pdf)
 
-Dec 3
-: No Lecture
+Apr 8
+: Testing & Pytest
+  : [Notes](/11102-f25/lessons/pytest)<br>
+
+HW
+: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/152909) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/152910)

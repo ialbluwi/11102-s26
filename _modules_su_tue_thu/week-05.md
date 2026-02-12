@@ -2,18 +2,18 @@
 title: <b>Week 5</b> (Strings + Lists)
 ---
 
-Nov 2
+Mar 15
 : Strings (Basics) + **Quiz # 1**{:.label .label-red }
   : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79)<br>
   [String Slicing](/11102-f25/lesson-plans/images/slicing.png)
 
-Nov 4
+Mar 17
 : Strings (Iteration)
   : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79)<br>
   [Examples](/11102-f25/lessons/strings)
 
 
-Nov 6
+Mar 19
 : Lists (Basics)
   : [TP.9](https://allendowney.github.io/ThinkPython/chap09.html) (excluding TP.9.12)<br>
   [Visualization](/11102-f25/lesson-plans/images/lists-viz.png)<br> [Indexing](/11102-f25/lesson-plans/images/list-indexing.png)

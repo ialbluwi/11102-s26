@@ -1,18 +1,18 @@
 ---
-title: <b>Week 12</b> (Images & Animation)
+title: <b>Week 11</b> (Security)
 ---
 
-Dec 21
-: Colors & Image + [**Quiz # 2**{:.label .label-red }](#)
-  : [Notes](/11102-f25/lessons/images)
+Apr 26
+: Encryption
+    : [Notes](/11102-f25/lessons/encryption/)
 
+Apr 28
+: Encryption
+    : [Notes](/11102-f25/lessons/encryption/)
 
-Dec 23
-: Image Manipulation & Animation
-  : [Notes](/11102-f25/lessons/images-python)
+Apr 30
+: passwords
+    : [Notes](/11102-f25/lessons/passwords/)
 
-Dec 25
-: <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
-  WINTER BREAK
-</span>
-
+HW
+: [**Exercises**{:.label .label-purple }](#) [**Self-Assessment**{:.label .label-green }](#)

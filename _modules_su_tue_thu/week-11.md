@@ -1,18 +1,18 @@
 ---
-title: <b>Week 11</b> (Security)
+title: <b>Week 10</b> (Data Representation)
 ---
 
-Dec 14
-: Encryption
-    : [Notes](/11102-f25/lessons/encryption/)
+Apr 19
+: Number Systems
+    : [Notes](/11102-f25/lessons/number-systems/)
 
-Dec 16
-: Encryption
-    : [Notes](/11102-f25/lessons/encryption/)
-
-Dec 18
-: passwords
-    : [Notes](/11102-f25/lessons/passwords/)
+Apr 21
+: Data Representation 1
+    : [Notes](/11102-f25/lessons/bits/)<br>
+  
+Apr 23
+: Data Representation 2
+    : [Notes](/11102-f25/lessons/negative/)
 
 HW
-: [**Exercises**{:.label .label-purple }](#) [**Self-Assessment**{:.label .label-green }](#)
+: [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/87448/lessons/153612) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/87448/lessons/153613)

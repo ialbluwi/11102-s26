@@ -2,12 +2,12 @@
 title: <b>Week 5</b> (Strings + Lists)
 ---
 
-Nov 3
+Mar 16
 : Strings (Basics) + **Quiz # 1**{:.label .label-red }
   : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79)<br>
   [String Slicing](/11102-f25/lesson-plans/images/slicing.png)
 
-Nov 5
+Mar 18
 : Strings (Iteration) + Lists (Basics)
   : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79)<br>
   [Examples](/11102-f25/lessons/strings)<br>
