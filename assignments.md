@@ -7,7 +7,7 @@ description: Description of the course assignments.
 # Assignment 1
 
 - **Topic**: Prompt Engineering.
-- **Deadline**: November 7 @ 11:59 PM.
+- **Deadline**: TBA
 - **Submission**: Through Ed.
 - **Details**: Announced on Ed.
 - **Weight**: 2%
@@ -15,7 +15,7 @@ description: Description of the course assignments.
 # Assignment 2
 
 - **Topic**: Command Line Interfaces.
-- **Deadline**: December 13th, 2025 @ 11:59 PM. 
+- **Deadline**: TBA
 - **Submission**: Through Ed.
 - **Details**: Announced on Ed.
 - **Weight**: 3%
@@ -23,7 +23,7 @@ description: Description of the course assignments.
 # Assignment 3
 
 - **Topic**: GitHub and GitHub Desktop.
-- **Deadline**: January 17th, 2025 @ 11:59 PM. 
+- **Deadline**: TBA
 - **Submission**: Through Ed.
 - **Details**: Announced on Ed.
 - **Weight**: 3%

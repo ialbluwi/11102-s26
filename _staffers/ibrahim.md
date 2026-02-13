@@ -9,14 +9,14 @@ photo: staff/ialbluwi.png
 <details class="jtd-accordion">
   <summary>Sections</summary>
   <ul>
-    <li><b>Section 11:</b> MoWe 2:00 PM - 3:30 PM @ <code>IT203</code></li>
+    <li><b>Section 2:</b> SuTuTh 9:00 AM - 10:00 AM @ <code>IT206</code></li>
   </ul>
 </details>
 
 <details class="jtd-accordion">
   <summary>Office Hours</summary>
   <ul>
-    <li><b>SuTuTh</b>: 1 PM - 2 PM</li>
-    <li><b>MoWe</b>: 12:30 PM - 2 PM</li>
+    <li><b>SuTuTh</b>: 11 AM - 1 PM</li>
+    <li><b>MoWe</b>: 9:30 AM - 11 AM</li>
   </ul>
 </details>

@@ -30,25 +30,25 @@ No prior programming experience is expected. Just bring your curiosity, a commit
 
 ## Textbooks
 
-We will use the following two textbooks, both of which are available online for free. We will also use slides, notes, and other resources as necessary. The <a href='/11102-s26/schedule'>Schedule</a> page will learning material and which chapter(s) from which book are required.
+We will use the following two textbooks (mostly the first one), both of which are available online for free. We will also use slides, notes, and other resources as necessary. The <a href='/11102-s26/schedule'>Schedule</a> page will learning material and which chapter(s) from which book are required.
 
 <div style="display: flex; align-items: center; gap: 1em; margin-bottom: 1.5em; margin-top: 1em;">
 <img src="assets/images/books/python4everybody.jpg" alt="Python4Everybody Book Cover" width="100"/>
 <div>
-    Severance, Charles R. <strong>Python for Everybody: Exploring Data Using Python 3</strong>, 2024.[<a href='https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf'>PDF</a>][<a href='https://www.py4e.com/lessons'>Online Lessons</a>]
+    Severance, Charles R. <strong>Python for Everybody: Exploring Data Using Python 3</strong>, 2024 [<a href='https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf'>PDF</a>][<a href='https://www.py4e.com/lessons'>Online Lessons</a>].
 </div>
 </div>
 
 <div style="display: flex; align-items: center; gap: 1em; margin-bottom: 1.5em; margin-top: 1em;">
 <img src="assets/images/books/think_python_3e.jpg" alt="Think Python Book Cover" width="100"/>
 <div>
-  Downey, Allen. <strong>Think Python: How to Think Like a Computer Scientist</strong>, 3rd ed., O'Reilly Media, 2024.[<a href='https://allendowney.github.io/ThinkPython/'>HTML</a>]
+  Downey, Allen. <strong>Think Python: How to Think Like a Computer Scientist</strong>, 3rd ed., O'Reilly Media, 2024 [<a href='https://allendowney.github.io/ThinkPython/'>HTML</a>].
 </div>
 </div>
 
 ## Course Topics
 
-The first 7 weeks of the semester will focus on programming in Python. Each of the remaining weeks will focus on an application area in computer science using hands-on projects and examples. Here is what you should expect to achieve by the end of the semester:
+The first 7 weeks of the semester will focus on programming in Python. Each of the remaining weeks will focus on an application area in computer science using hands-on examples. Here is what you should expect to achieve by the end of the semester:
 
 - Be able to **_read, trace, and modify_** simple programs in Python. 
 - Be able to **_design and test_** small/medium-sized programs in Python.
@@ -68,13 +68,10 @@ The first 7 weeks of the semester will focus on programming in Python. Each of t
            <th>Description</th></tr>
     </thead>
     <tbody>
-      <tr> <td>Exercises</td>        
-           <td>5%</td>        
-           <td>11 problem sets due at the end of every week. The lowest is automatically dropped.</td>
+      <tr> <td>Exercises & Self-Assessments</td>        
+           <td>10%</td>        
+           <td>11 problem sets due at the end of every week. The lowest two are automatically dropped.</td>
            </tr>
-      <tr> <td>Self Assessments</td> 
-           <td>5%</td>        
-           <td>11 quizzes for self assessment purposes done at home and due at the end of every week. The lowest is automatically dropped.</td></tr>
       <tr> <td>Quizzes</td>          
            <td>12%</td>        
            <td>Two quizzes done in class, each worth 6%.</td></tr>
@@ -127,7 +124,7 @@ The first 7 weeks of the semester will focus on programming in Python. Each of t
   <img src="assets/images/tools/edstem.png" alt="Edstem Logo" width="50"/>
   <div>
     <strong>EdStem</strong><br>
-    This is where you will ask questions, interact with your instructors and classmates, and solve the weekly exercises and self-assessments. You will receive an email invitation to create an account and join the course. [<a href='https://edstem.org/us/courses/87448'>Direct Link to Course</a>]
+    This is where you will ask questions, interact with your instructors and classmates, and solve the weekly exercises and self-assessments. You will receive an email invitation to create an account and join the course. [<a href='https://edstem.org/us/courses/95984'>Direct Link to Course</a>]
   </div>
 </div>
 
