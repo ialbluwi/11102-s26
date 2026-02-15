@@ -1,4 +1,6 @@
-<h2 class="fs-4" id="{{ module.title | slugify }}">{{ module.title }}</h2>
+{% for week in site.data.schedule.mo_we %}
+<h2 class="fs-4" id="{{ week.title | slugify }}">{{ week.title }}</h2>
 <div class="module">
-  {{ module.content }}
+  {{ week.content | markdownify }}
 </div>
+{% endfor %}

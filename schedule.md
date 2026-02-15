@@ -12,25 +12,11 @@ description: Weekly course schedule, including readings, quizzes, and assignment
 </div>
 
 <div id="schedule-su-tue-thu">
-  {% for module in site.modules_su_tue_thu %}
-    {% if module.note %}
-      <div class="schedule-note">
-      {{ module.note }}
-      </div>
-    {% endif %}
-    {% include module-su-tue-thu.html module=module %}
-  {% endfor %}
+  {% include module-su-tue-thu.html %}
 </div>
 
 <div id="schedule-mo-we" style="display:none;">
-  {% for module in site.modules_mo_we %}
-    {% if module.note %}
-      <div class="schedule-note">
-      {{ module.note }}
-      </div>
-    {% endif %}
-    {% include module-mo-we.html module=module %}
-  {% endfor %}
+  {% include module-mo-we.html %}
 </div>
 
 {% raw %}
