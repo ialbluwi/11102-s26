@@ -1,30 +1,30 @@
 su_tue_thu:
 - content: |
-    1.
+    1
     : Course Introduction
-      : [**Policy Quiz**{:.label .label-red }](?)<br>
+      : [**Policy Quiz**{:.label .label-red }](https://edstem.org/us/courses/95984/lessons/159725)<br>
       [[Slides](/11102-s26/lessons/slides/Day1.pdf)] [[Heavy Box Game](/11102-s26/assets/demos/boxes.html)]
 
-    2.
+    2
     : Introduction to Python
       : [P4E.1](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=13), [Terminology](/11102-s26/lessons/basics)<br>
         Install: [python](https://www.python.org/downloads/), [vscode](https://code.visualstudio.com/download), [python for vscode](https://marketplace.visualstudio.com/items?itemName=ms-python.python), [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
-    3.
+    3
     : Variables and Expressions
       : [P4E.2](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=31)
 
     HW
-    : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
+    : [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/95984/lessons/159726) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/95984/lessons/159727)
   end_date: Feb 21
   start_date: Feb 15
   title: <b>Week 1</b> (Introduction)
 - content: |
-    1.
+    1
     : Conditionals
       : [P4E.3](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=43) (excluding 3.7), [Notes](/11102-s26/lessons/conditionals/)<br>
 
-    2.
+    2
     : Functions (Basics)
       : [P4E.4](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=55)
 
@@ -34,17 +34,17 @@ su_tue_thu:
   start_date: Feb 22
   title: <b>Week 2</b> (Conditionals + Functions)
 - content: |
-    1.
+    1
     : Functions (Practice)
       : [Notes](/11102-s26/lessons/functions2)
 
-    2.
+    2
     : Iteration (for loops)
       : [For-Loops](/11102-s26/lessons/for-loops)
 
-    3.
+    3
     : Iteration (while loops)
-      : [While-Loops](/11102-s26/lessons/while-loops)<br>
+      : [While-Loops](/11102-s26/lessons/while-loops), 
       [P4E.5](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=69) (5.1-5.4)
 
     HW
@@ -53,11 +53,11 @@ su_tue_thu:
   start_date: Mar 1
   title: <b>Week 3</b> (Functions + Iteration)
 - content: |
-    1.
+    1
     : Iteration (Nested Loops)
       : [Notes](/11102-s26/lessons/nested-loops)
 
-    2.
+    2
     : Iteration (Practice)
       : [Notes](/11102-s26/lessons/loops-practice)
 
@@ -67,20 +67,20 @@ su_tue_thu:
   start_date: Mar 8
   title: <b>Week 4</b> (Iteration)
 - content: |
-    1.
+    1
     : Strings (Basics) + **Quiz # 1**{:.label .label-red }
-      : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79)<br>
+      : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79), 
       [String Slicing](/11102-s26/lesson-plans/images/slicing.png)
 
-    2.
+    2
     : Strings (Iteration)
-      : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79)<br>
+      : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79), 
       [Examples](/11102-s26/lessons/strings)
 
-    3.
+    3
     : Lists (Basics)
-      : [TP.9](https://allendowney.github.io/ThinkPython/chap09.html) (excluding TP.9.12)<br>
-      [Visualization](/11102-s26/lesson-plans/images/lists-viz.png)<br> [Indexing](/11102-s26/lesson-plans/images/list-indexing.png)
+      : [TP.9](https://allendowney.github.io/ThinkPython/chap09.html) (excluding TP.9.12), 
+      [Visualization](/11102-s26/lesson-plans/images/lists-viz.png), [Indexing](/11102-s26/lesson-plans/images/list-indexing.png)
 
     HW
     : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
@@ -88,24 +88,22 @@ su_tue_thu:
   start_date: Mar 15
   title: <b>Week 5</b> (Strings + Lists)
 - content: |
-    1.
-    : <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
-      EID BREAK
+    <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 2.2em;border-radius:6px;display:inline-block;font-size:0.8em;">
+    EID BREAK
     </span>
-
-  end_date: Feb 21
-  start_date: Feb 15
-  title: <b>Week 6</b> (EID BREAK)
+  end_date: Mar 28
+  start_date: Mar 22
+  title: <b>Week 6</b> (No Class)
 - content: |
-    1.
+    1
     : Lists (practice 1)
       : [Examples (part 1)](/11102-s26/lessons/list-examples1)
 
-    2.
+    2
     : Lists (practice 2)
       : [Examples (part 2)](/11102-s26/lessons/list-examples2)
 
-    3.
+    3
     : Lists (practice 3)
       : [Examples (part 3)](/11102-s26/lessons/list-examples3)
 
@@ -115,15 +113,15 @@ su_tue_thu:
   start_date: Mar 22
   title: <b>Week 6</b> (Lists)
 - content: |
-    1.
+    1
     : Aliasing vs. Copying
         : [Notes](/11102-s26/lessons/list-copying)
 
-    2.
+    2
     : 2D Lists
         : [Notes](/11102-s26/lessons/lists-of-lists)
 
-    3.
+    3
     : Dictionaries
         : [Notes](/11102-s26/lessons/dictionaries)
 
@@ -133,15 +131,15 @@ su_tue_thu:
   start_date: Mar 29
   title: <b>Week 7</b> (2D Lists + Dictionaries)
 - content: |
-    1.
+    1
     : Introduction to Sofware Engineering
         : [Slides](/11102-s26/lessons/slides/SE-Intro.pdf)<br>
 
-    2.
+    2
     : Testing (Introduction)
         : [Slides](/11102-s26/lessons/slides/Testing-Intro.pdf)<br>
 
-    3.
+    3
     : Testing (Practice)
         : [Notes](/11102-s26/lessons/pytest)<br>
 
@@ -151,29 +149,29 @@ su_tue_thu:
   start_date: Apr 5
   title: <b>Week 8</b> (Testing & SE)
 - content: |
-    1.
+    1
     : Program Efficiency
         : [Notes](/11102-s26/lessons/efficiency/)
 
-    2.
+    2
     : Program Efficiency
         : [Notes](/11102-s26/lessons/efficiency/)
 
-    3.
+    3
     : Review
   end_date: Apr 18
   start_date: Apr 12
   title: <b>Week 9</b> (Midterms + Algorithms)
 - content: |
-    1.
+    1
     : Number Systems
         : [Notes](/11102-s26/lessons/number-systems/)
 
-    2.
+    2
     : Data Representation 1
         : [Notes](/11102-s26/lessons/bits/)<br>
 
-    3.
+    3
     : Data Representation 2
         : [Notes](/11102-s26/lessons/negative/)
 
@@ -183,15 +181,15 @@ su_tue_thu:
   start_date: Apr 19
   title: <b>Week 10</b> (Data Representation)
 - content: |
-    1.
+    1
     : Encryption
         : [Notes](/11102-s26/lessons/encryption/)
 
-    2.
+    2
     : Encryption
         : [Notes](/11102-s26/lessons/encryption/)
 
-    3.
+    3
     : passwords
         : [Notes](/11102-s26/lessons/passwords/)
 
@@ -201,42 +199,37 @@ su_tue_thu:
   start_date: Apr 26
   title: <b>Week 11</b> (Security)
 - content: |
-    1.
+    1
     : Colors & Image + [**Quiz # 2**{:.label .label-red }](#)
       : [Notes](/11102-s26/lessons/images)
 
 
-    2.
+    2
     : Image Manipulation & Animation
       : [Notes](/11102-s26/lessons/images-python)
 
-    3.
-    : <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
-      WINTER BREAK
-    </span>
   end_date: May 09
   start_date: May 3
   title: <b>Week 12</b> (Images & Animation)
 - content: |
-    1.
+    1
     : Machine Learning
         : [Part 1](/11102-s26/lessons/ml1)
 
-    2.
+    2
     : Machine Learning
         : [Part 2](/11102-s26/lessons/ml2)
 
-    3.
+    3
     : Machine Learning
         : [Part 3](/11102-s26/lessons/ml3)
   end_date: May 23
   start_date: May 17
   title: <b>Week 14</b> (AI & Data Science)
 - content: |
-    1.
-    : <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
+    <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 0.6em;border-radius:6px;display:inline-block;font-size:0.8em;">
       EID BREAK
     </span>
   end_date: May 30
   start_date: May 24
-  title: <b>Week 15</b> (EID BREAK)
+  title: <b>Week 15</b> (No Class)

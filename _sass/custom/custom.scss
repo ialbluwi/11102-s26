@@ -538,3 +538,8 @@ body {
     width: 100%;
     height: 100%;
 }
+
+/* Remove the extra colon from definition list numbers in syllabus */
+.module dl dt::after {
+  content: none !important;
+}
