@@ -1,6 +1,7 @@
 .main-content .module,
 .module {
   @extend %card;
+  margin-bottom: $sp-6;
 
   h1,
   h2,
@@ -17,7 +18,7 @@
     border-bottom: $border $border-color;
     border-top: $border $border-color;
     display: grid;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 20% 1fr;
     margin: $sp-2 (-$sp-4);
 
     &:first-child {
@@ -43,9 +44,10 @@
 
     >dt {
       @extend %module-item;
-      border-top: $border $border-color;
       font-weight: normal;
+      color: #D3D3D3;
       text-align: right;
+      padding-left: 0;
 
       +dd {
         border-top: $border $border-color;
