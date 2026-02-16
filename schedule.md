@@ -6,52 +6,22 @@ description: Weekly course schedule, including readings, quizzes, and assignment
 
 # Schedule
 
-<div style="margin-bottom:1em;">
-  <button id="toggle-su-tue-thu" class="btn">Su/Tue/Thu</button>
-  <button id="toggle-mo-we" class="btn">Mo/We</button>
-</div>
+
 
 <div id="schedule-su-tue-thu">
   {% include module-su-tue-thu.html %}
 </div>
 
-<div id="schedule-mo-we" style="display:none;">
-  {% include module-mo-we.html %}
-</div>
+
 
 {% raw %}
 <script>
 (function() {
   function init() {
     var su = document.getElementById("schedule-su-tue-thu");
-    var mo = document.getElementById("schedule-mo-we");
-    var btnSu = document.getElementById("toggle-su-tue-thu");
-    var btnMo = document.getElementById("toggle-mo-we");
-    
-    if (!su || !mo || !btnSu || !btnMo) return;
-    
-    btnSu.style.backgroundColor = "#007cba";
-    btnSu.style.color = "white";
-    btnMo.style.padding = "2px 16px";
-    btnSu.style.padding = "2px 16px";
-
-    btnSu.onclick = function() {
-      su.style.display = "block";
-      mo.style.display = "none";
-      btnSu.style.backgroundColor = "#007cba";
-      btnSu.style.color = "white";
-      btnMo.style.backgroundColor = "#f0f0f0";
-      btnMo.style.color = "#333";
-    };
-    
-    btnMo.onclick = function() {
-      su.style.display = "none";
-      mo.style.display = "block";
-      btnMo.style.backgroundColor = "#007cba";
-      btnMo.style.color = "white";
-      btnSu.style.backgroundColor = "#f0f0f0";
-      btnSu.style.color = "#333";
-    };
+    if (su) {
+      su.style.display = "block"; // Ensure it's visible
+    }
   }
   
   if (document.readyState === 'loading') {

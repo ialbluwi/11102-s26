@@ -1,6 +1,0 @@
-{% for week in site.data.schedule.mo_we %}
-<h2 class="fs-4" id="{{ week.title | slugify }}">{{ week.title }}</h2>
-<div class="module">
-  {{ week.content | markdownify }}
-</div>
-{% endfor %}
