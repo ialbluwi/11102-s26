@@ -483,7 +483,12 @@ body {
   border-radius: 4px;
 }
 
-
+.date-range {
+  float: right;
+  font-weight: normal; /* To make it less prominent than the title */
+  font-size: 0.9em; /* Slightly smaller than the title */
+  margin-left: 1em; /* Add some space if the title is long */
+}
 
 /* Vertical center staff text next to photo */
 .staffer {

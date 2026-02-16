@@ -1,5 +1,8 @@
 {% for week in site.data.schedule.su_tue_thu %}
-<h2 class="fs-4" id="{{ week.title | slugify }}">{{ week.title }}</h2>
+<h2 class="fs-4" id="{{ week.title | slugify }}">
+  <span>{{ week.title }}</span>
+  <span class="date-range">{{ week.start_date }} - {{ week.end_date }}</span>
+</h2>
 <div class="module">
   {{ week.content | markdownify }}
 </div>
