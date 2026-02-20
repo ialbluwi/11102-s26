@@ -32,6 +32,12 @@ Although this makes it efficient for machines, it is _very difficult for humans 
 A *low-level programming language* is closer to machine code and provides more direct control of the hardware.  
 It is more readable than raw `0`s and `1`s but harder to deal with than high-level languages. You can think of it as a middle ground between high-level languages and machine code.
 
+{: .important-title }
+> DEMO
+>
+> The following website allows seeing the low-level assembly code generated from high-level languages like Python:
+> <a href="https://www.codeconvert.ai/python-to-assembly-converter" target="_blank">Python to Assembly Converter</a>
+
 
 ## Tools
 
