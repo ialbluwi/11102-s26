@@ -71,7 +71,7 @@ A *semantic error* occurs when a statement follows the language’s syntax but h
 Even if a sentence is correct grammatically, it might not make any sense. For example, `I idea ate` has incorrect syntax, whereas `I ate an idea` is grammatically correct but makes no sense. In Python, `1 + "Hello"` has correct grammar (left-hand operand followed by operator `+` followed by right-hand operand), but adding `1` to `"Hello"` is not possible.
 
 ### Logic Error
-Both the syntax and the semantics can be correct, but the program can still produce incorrect results if the _logic_ used is incorrect. For example, `circumference = width * height` has correct syntax and semantics (assuming `width` and `height` are numbers), but the equation computes the _area_, not the _circumference_!
+Both the syntax and the semantics can be correct, but the program can still produce incorrect results if the _logic_ used is incorrect. For example, `perimeter = width * height` has correct syntax and semantics (assuming `width` and `height` are numbers), but the equation computes the _area_, not the _perimeter_!
 
 Compilers and interpreters can detect errors due to violations of the language rules, but they can't detect _logic_ errors. It is the responsibility of the programmers to detect such errors.
 
