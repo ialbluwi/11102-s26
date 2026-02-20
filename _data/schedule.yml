@@ -21,12 +21,12 @@ su_tue_thu:
   title: <b>Week 1</b> (Introduction)
 - content: |
     1
-    : Conditionals
-      : [P4E.3](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=43) (excluding 3.7), [Notes](/11102-s26/lessons/conditionals/)<br>
+    : Conditionals (Basics)
+      : [P4E.3](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=43) (excluding 3.7)
 
     2
-    : Functions (Basics)
-      : [P4E.4](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=55)
+    : Conditionals (Practice)
+      : [Notes](/11102-s26/lessons/conditionals/)
 
     HW
     : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
@@ -35,14 +35,18 @@ su_tue_thu:
   title: <b>Week 2</b> (Conditionals + Functions)
 - content: |
     1
+    : Functions (Basics)
+      : [P4E.4](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=55)
+
+    2
     : Functions (Practice)
       : [Notes](/11102-s26/lessons/functions2)
 
-    2
+    3
     : Iteration (for loops)
       : [For-Loops](/11102-s26/lessons/for-loops)
 
-    3
+    4
     : Iteration (while loops)
       : [While-Loops](/11102-s26/lessons/while-loops), 
       [P4E.5](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=69) (5.1-5.4)

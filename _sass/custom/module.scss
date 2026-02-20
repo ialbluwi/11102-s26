@@ -48,17 +48,10 @@
       color: #D3D3D3;
       text-align: right;
       padding-left: 0;
-
-      +dd {
-        border-top: $border $border-color;
-      }
+      border-bottom: $border $border-color; // Add this line
 
       &:first-child {
         border-top: none;
-
-        +dd {
-          border-top: none;
-        }
       }
 
       &::after {
@@ -68,6 +61,8 @@
 
     >dd {
       @extend %module-item;
+      border-bottom: $border $border-color; // Add this line
+      border-top: none; // Remove existing border-top from dd
 
       +dd {
         padding-top: 0;
