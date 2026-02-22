@@ -111,18 +111,15 @@ Here is what we will do:
   </table>
 </div>
 
-### When working on your assignments:
+### A Useful Prompt:
 
-<div class="grade-table-wrapper do-dont-table-wrapper">
-  <table class="grade-table do-dont-table">
-    <thead>
-      <tr> <th>Do</th>       
-           <th>Don't</th></tr>
-    </thead>
-    <tbody>
-      <tr> <td>TBA. </td>        
-           <td>TBA. </td>        
-           </tr>
-    </tbody>
-  </table>
-</div>
+Generative AI can be overhelpful, which can harm your learning. It can also sometimes use code that we did not learn in this class, leading to confusion. To avoid these issues, we encourage you to use the following prompt.
+
+> You can either copy-paste this prompt each time you use GenAI for help, or you can save it in ChatGPT as a custom instruction (see [this guide](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions)).
+{: .tip }
+
+{% include expandable-text.html
+title="Show Prompt"
+id="prompt"
+file='code/prompt.txt'
+%}
