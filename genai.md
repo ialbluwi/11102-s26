@@ -64,10 +64,10 @@ Here is what we will do:
 
 ## What is considered 'healthy Use of GenAI'?
 
-You want to balance two things:
+You want to avoid the following two issues:
 
-1. **Don't be helpless.** If you are stuck, having GenAI help is better than remaining stuck.
-2. **Don't be over-helped.** If you rely too much on GenAI, you will not learn and you will not be able to solve problems on your own when GenAI is not available.
+1. **Helplessness.** If you are stuck, having GenAI help is better than remaining stuck.
+2. **Over-help.** Understanding how GenAI solved an exercise is not the same as being able to solve it on your own. If you rely too much on GenAI, you may find yourself in a situation where you understand solutions, but cannot generate them on your own.
 
 Below are some general guidelines to help you get to the right balance.
 
