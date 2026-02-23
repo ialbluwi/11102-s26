@@ -64,6 +64,13 @@ Here is what we will do:
 
 ## What is considered 'healthy Use of GenAI'?
 
+You want to balance two things:
+
+1. **Don't be helpless.** If you are stuck, having GenAI help is better than remaining stuck.
+2. **Don't be over-helped.** If you rely too much on GenAI, you will not learn and you will not be able to solve problems on your own when GenAI is not available.
+
+Below are some general guidelines to help you get to the right balance.
+
 ### When solving practice exercises:
 
 <div class="grade-table-wrapper do-dont-table-wrapper">
@@ -113,7 +120,7 @@ Here is what we will do:
 
 ### A Useful Prompt:
 
-Generative AI can be overhelpful, which can harm your learning. It can also sometimes use code that we did not learn in this class, leading to confusion. To avoid these issues, we encourage you to use the following prompt.
+If you decide to use GenAI while working on the exercises, we encourage you to use the prompt provided below.
 
 > You can either copy-paste this prompt each time you use GenAI for help, or you can save it in ChatGPT as a custom instruction (see [this guide](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions)).
 {: .tip }
