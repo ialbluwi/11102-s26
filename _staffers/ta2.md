@@ -1,6 +1,6 @@
 ---
-name: TBA
+name: Khaled Abu Seir
 role: Teaching Assistant
-website: TBA
-photo: tools/copilot-pink2.png
+website: https://www.linkedin.com/in/khalidabuseir/
+photo: staff/abuseir.jpeg
 ---
