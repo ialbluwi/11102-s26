@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Dec 9
+title:  Bits
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Nov 16
+title:  List Copying
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

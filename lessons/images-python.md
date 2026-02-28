@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Image Processing with Python
+title:  Images with Python
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  October 28
+title:  Loops Practice
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

@@ -46,22 +46,22 @@ su_tue_thu:
     : Iteration (for loops)
       : [For-Loops](/11102-s26/lessons/for-loops)
 
-    4
-    : Iteration (while loops)
-      : [While-Loops](/11102-s26/lessons/while-loops), 
-      [P4E.5](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=69) (5.1-5.4)
-
     HW
-    : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
+    : [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/95984/lessons/159730/slides/938106) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/95984/lessons/159731/slides/938115)
   end_date: Mar 07
   start_date: Mar 1
   title: <b>Week 3</b> (Functions + Iteration)
 - content: |
     1
+    : Iteration (while loops)
+      : [While-Loops](/11102-s26/lessons/while-loops), 
+      [P4E.5](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=69) (5.1-5.4)
+    
+    2
     : Iteration (Nested Loops)
       : [Notes](/11102-s26/lessons/nested-loops)
 
-    2
+    3
     : Iteration (Practice)
       : [Notes](/11102-s26/lessons/loops-practice)
 

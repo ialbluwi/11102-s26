@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  October 19
+title:  Functions
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

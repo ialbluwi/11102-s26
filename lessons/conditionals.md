@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  October 14
+title:  Conditionals
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

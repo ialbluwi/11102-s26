@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Dec 11
+title:  Negative Numbers
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

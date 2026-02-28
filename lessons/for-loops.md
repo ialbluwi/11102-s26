@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  October 21
+title:  For Loops
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  October 30
+title:  Turtle Graphics
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  October 26
+title:  Nested Loops
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

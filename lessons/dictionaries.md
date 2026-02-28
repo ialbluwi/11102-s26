@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Nov 20
+title:  Dictionaries
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

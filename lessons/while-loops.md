@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  October 23
+title:  While Loops
 nav_exclude: true
 author: Ibrahim Albluwi
 ---

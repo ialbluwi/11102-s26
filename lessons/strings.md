@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  November 4
+title:  Strings
 nav_exclude: true
 author: Ibrahim Albluwi
 ---
