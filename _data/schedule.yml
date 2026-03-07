@@ -66,13 +66,13 @@ su_tue_thu:
       : [Notes](/11102-s26/lessons/loops-practice)
 
     HW
-    : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
+    : [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/95984/lessons/159732/slides/938119) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/95984/lessons/159733/slides/938125)
   end_date: Mar 14
   start_date: Mar 8
   title: <b>Week 4</b> (Iteration)
 - content: |
     1
-    : Strings (Basics) + **Quiz # 1**{:.label .label-red }
+    : Strings (Basics)
       : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79), 
       [String Slicing](/11102-s26/lesson-plans/images/slicing.png)
 
@@ -82,19 +82,25 @@ su_tue_thu:
       [Examples](/11102-s26/lessons/strings)
 
     3
-    : Lists (Basics)
-      : [TP.9](https://allendowney.github.io/ThinkPython/chap09.html) (excluding TP.9.12), 
-      [Visualization](/11102-s26/lesson-plans/images/lists-viz.png), [Indexing](/11102-s26/lesson-plans/images/list-indexing.png)
-
+    : <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 1em;border-radius:6px;display:inline-block;font-size:0.8em;">EID BREAK</span>
+    
     HW
     : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
   end_date: Mar 21
   start_date: Mar 15
   title: <b>Week 5</b> (Strings + Lists)
 - content: |
-    <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 2.2em;border-radius:6px;display:inline-block;font-size:0.8em;">
-    EID BREAK
-    </span>
+    1
+    : <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 1em;border-radius:6px;display:inline-block;font-size:0.8em;">EID BREAK</span>
+
+    2
+    : **Quiz # 1**{:.label .label-red }
+
+    3
+    : Lists (Basics)
+      : [TP.9](https://allendowney.github.io/ThinkPython/chap09.html) (excluding TP.9.12), 
+      [Visualization](/11102-s26/lesson-plans/images/lists-viz.png), [Indexing](/11102-s26/lesson-plans/images/list-indexing.png)
+
   end_date: Mar 28
   start_date: Mar 22
   title: <b>Week 6</b> (No Class)
