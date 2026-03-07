@@ -2,7 +2,7 @@
 layout: page
 title: Installation Guide
 description: Complete setup guide for VSCode, Python, and GitHub Copilot
-nav_order: 2
+nav_exclude: true
 ---
 
 # Installation Guide
@@ -451,16 +451,5 @@ python file.py            # (or python3 on Mac/Linux)
 | Terminal        | `` Ctrl+` ``   | `` ⌃+` ``    |
 | Save            | `Ctrl+S`       | `⌘+S`        |
 | Format Code     | `Shift+Alt+F`  | `⇧+⌥+F`      |
-
----
-
-## Next Steps
-
-Once everything is installed:
-
-1. **Learn the basics**: Check out your course materials and documentation
-2. **Explore Copilot**: Try asking it to write a simple program for you
-3. **Practice**: Create small Python files and experiment with code
-4. **Join the community**: Participate in course forums and ask questions
 
 Good luck! 🚀
