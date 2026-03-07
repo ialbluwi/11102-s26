@@ -34,10 +34,16 @@ This guide will help you install VSCode, Python, and GitHub Copilot on your comp
 5. Click **Install** and wait for completion
 6. Click **Finish** to launch VSCode
 
-**Verify Installation**: Open PowerShell or Command Prompt and type:
+**Verify Installation**: Open either Command Prompt or PowerShell:
+- **Command Prompt**: Press `Win + R`, type `cmd`, and press Enter (or search for "Command Prompt" in the Start menu)
+- **PowerShell**: Press `Win + R`, type `powershell`, and press Enter (or search for "PowerShell" in the Start menu)
+
+Then type:
 ```
 code --version
 ```
+
+You should see the VSCode version number (e.g., `1.XX.X`).
 
 ### macOS
 
@@ -49,6 +55,11 @@ code --version
 4. In Finder, double-click the zip to extract it
 5. Drag the **Visual Studio Code.app** to the **Applications** folder
 6. Launch VSCode from Applications or Spotlight search (⌘ + Space, type "code")
+7. **Enable the `code` command in Terminal:**
+   - Open VSCode
+   - Press `⌘+Shift+P` to open the Command Palette
+   - Type and run **"Shell Command: Install 'code' command in PATH"**
+   - Restart your terminal
 
 **Option 2: Using Homebrew (For advanced users)**
 ```bash
@@ -59,6 +70,8 @@ brew install --cask visual-studio-code
 ```bash
 code --version
 ```
+
+You should see the VSCode version number (e.g., `1.XX.X`).
 
 ### Linux
 
@@ -91,6 +104,8 @@ sudo pacman -S code
 code --version
 ```
 
+You should see the VSCode version number (e.g., `1.XX.X`).
+
 ---
 
 ## Python Installation
@@ -105,7 +120,11 @@ code --version
 6. Wait for installation to complete
 7. Close the installer
 
-**Verify Installation**: Open PowerShell or Command Prompt and type:
+**Verify Installation**: Open either Command Prompt or PowerShell:
+- **Command Prompt**: Press `Win + R`, type `cmd`, and press Enter (or search for "Command Prompt" in the Start menu)
+- **PowerShell**: Press `Win + R`, type `powershell`, and press Enter (or search for "PowerShell" in the Start menu)
+
+Then type:
 ```
 python --version
 ```
