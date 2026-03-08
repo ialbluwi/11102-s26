@@ -23,7 +23,7 @@ For loops are suitable for situations where we know how many times we want to re
 
 ## Basic Syntax
 
-### Example 1. 
+### Example 1
 The following code repeats until the user enters anything other than "1234".
 
 ```python
@@ -47,7 +47,9 @@ while len(psw) < 8:
 print('Thank you!')
 ```
 
-### Example 2.
+> 💡 _**Think.** What if we replace the `while` with an `if`? How does the program behavior change?_
+
+### Example 2
 The following code counts down from 5 to 1 and then prints `Booom!`
 
 ```python
