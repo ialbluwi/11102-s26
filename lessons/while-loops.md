@@ -15,7 +15,7 @@ h2 {
 </style>
 
 # Iteration (while-loops)
-<span style="font-size: 0.8em; font-weight: normal; color: gray;">Bisc syntax and examples.</span>
+<span style="font-size: 0.8em; font-weight: normal; color: gray;">Basic syntax and examples.</span>
 
 ## Overview
 
