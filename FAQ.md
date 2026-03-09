@@ -80,7 +80,7 @@ description: >-
 <div class="faq-page">
 <details class="jtd-accordion">
   <summary>I'm having issues with installation (Python, VSCode, or GitHub Copilot).</summary>
-  First, check the <a href="/11102-s26/installation_guide">Installation Guide</a> for step-by-step instructions for your operating system. If you've followed the guide and are still experiencing issues, please post a help request on Ed so that one of the TAs can get in touch with you.
+  First, check the <a href="/11102-s26/installation-guide">Installation Guide</a> for step-by-step instructions for your operating system. If you've followed the guide and are still experiencing issues, please post a help request on Ed so that one of the TAs can get in touch with you.
 </details>
 
 </div>
