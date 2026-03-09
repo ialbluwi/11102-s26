@@ -20,28 +20,6 @@ This guide will help you install VSCode, Python, and GitHub Copilot on your comp
 
 ---
 
-## Using the Terminal
-
-Many of the commands in this guide are run in a *terminal* (also called a *command prompt* or *shell*). A terminal is a program that lets you type text commands to control your computer instead of clicking with a mouse. You can think of it as talking directly to the operating system.
-
-### Opening a terminal
-
-- **Windows**: Search for **Command Prompt** or **PowerShell** in the Start menu, or press `Win+R`, type `cmd` (for Command Prompt) or `powershell`, and press Enter.
-- **macOS**: Open **Terminal** from `Applications → Utilities`, or press `⌘+Space` and type `Terminal`.
-- **Linux**: Look for **Terminal** in your application menu. You can often press `Ctrl+Alt+T` as a shortcut.
-
-***From this point forward, any command shown in a `bash` code block should be run in a terminal for your operating system.***
-
-### Example
-
-```bash
-# prints "Hello, world" to the screen
-echo Hello, world
-```
-![VSCode Extensions view]({{ '/assets/images/installation-guide/terminal-hello-world.png' | relative_url }})
-
----
-
 ## VSCode Installation
 
 ### Windows
@@ -52,7 +30,7 @@ echo Hello, world
 4. Follow the installation wizard:
    - Accept the license agreement
    - Choose installation location (default is fine)
-   - **Important**: Check "Add to PATH" (allows you to open VSCode from [terminal](#using-the-terminal))
+   - ⚠️ **Important**: Check "Add to PATH" (allows you to open VSCode from [terminal](#using-the-terminal))
    - Check other options as desired (Create desktop icon, Add "Open with Code" actions)
 5. Click **Install** and wait for completion
 6. Click **Finish** to launch VSCode
@@ -109,7 +87,7 @@ You should see the VSCode version number (e.g., `1.XX.X`)
 1. Visit [python.org](https://www.python.org/downloads/)
 2. Click the yellow **Download Python** button (gets the latest version)
 3. Run the installer (`.exe` file)
-4. **CRITICAL**: Check the box "Add Python to PATH" at the bottom
+4. ⚠️ **CRITICAL**: Check the box "Add Python to PATH" at the bottom
 5. Click **Install Now**
 6. Wait for installation to complete
 7. Close the installer
@@ -166,7 +144,6 @@ You may also want to install:
 
 - **Pylint** - For code linting (it checks your code for possible errors and style issues).
 
-The **Python** extension typically installs **Pylance** automatically for code intelligence.
 ![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-extension.png' | relative_url }})
 
 ### Step 2: Create a Test Python File
@@ -194,7 +171,7 @@ If that doesn't work, make sure the run configuration is set to "Run Python File
 ![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-main-run-debug.png' | relative_url }})
 
 VSCode will open the **[Terminal](#using-the-terminal)** panel at the bottom of the window (below the editor).
-If you do not see it, open it from **View -> Terminal**.
+If you do not see it, open it from **View → Terminal**.
 You should see `Hello, World!` printed there.
 ![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-main-output.png' | relative_url }})
 
@@ -273,6 +250,26 @@ If you want to pause Copilot suggestions, or turn them back on later, you can do
 - Click the Copilot icon in the bottom status bar
 - Choose whether to disable or enable suggestions
 ![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-copilot-enable-disable.png' | relative_url }})
+
+---
+
+## Using the Terminal
+
+Many of the commands in this guide are run in a *terminal* (also called a *command prompt* or *shell*). A terminal is a program that lets you type text commands to control your computer instead of clicking with a mouse. You can think of it as talking directly to the operating system.
+
+### Opening a terminal
+
+- **Windows**: Search for **Command Prompt** or **PowerShell** in the Start menu, or press `Win+R`, type `cmd` (for Command Prompt) or `powershell`, and press Enter.
+- **macOS**: Open **Terminal** from `Applications → Utilities`, or press `⌘+Space` and type `Terminal`.
+- **Linux**: Look for **Terminal** in your application menu. You can often press `Ctrl+Alt+T` as a shortcut.
+
+### Example
+
+```bash
+# prints "Hello, world" to the screen
+echo Hello, world
+```
+![VSCode Extensions view]({{ '/assets/images/installation-guide/terminal-hello-world.png' | relative_url }})
 
 ---
 
