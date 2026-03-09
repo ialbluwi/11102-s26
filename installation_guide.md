@@ -11,11 +11,34 @@ This guide will help you install VSCode, Python, and GitHub Copilot on your comp
 
 ## Table of Contents
 
-1. [VSCode Installation](#vscode-installation)
-2. [Python Installation](#python-installation)
-3. [VSCode + Python Setup](#vscode--python-setup)
-4. [GitHub Copilot Installation](#github-copilot-installation)
-5. [Troubleshooting](#troubleshooting)
+1. [Using the Terminal](#using-the-terminal)
+2. [VSCode Installation](#vscode-installation)
+3. [Python Installation](#python-installation)
+4. [VSCode + Python Setup](#vscode--python-setup)
+5. [GitHub Copilot Installation](#github-copilot-installation)
+6. [Troubleshooting](#troubleshooting)
+
+---
+
+## Using the Terminal
+
+Many of the commands in this guide are run in a *terminal* (also called a *command prompt* or *shell*). A terminal is a program that lets you type text commands to control your computer instead of clicking with a mouse. You can think of it as talking directly to the operating system.
+
+### Opening a terminal
+
+- **Windows**: Search for **Command Prompt** or **PowerShell** in the Start menu, or press `Win+R`, type `cmd` (for Command Prompt) or `powershell`, and press Enter.
+- **macOS**: Open **Terminal** from `Applications → Utilities`, or press `⌘+Space` and type `Terminal`.
+- **Linux**: Look for **Terminal** in your application menu. You can often press `Ctrl+Alt+T` as a shortcut.
+
+***From this point forward, any command shown in a `bash` code block should be run in a terminal for your operating system.***
+
+### Example
+
+```bash
+# prints "Hello, world" to the screen
+echo Hello, world
+```
+![VSCode Extensions view]({{ '/assets/images/installation-guide/terminal-hello-world.png' | relative_url }})
 
 ---
 
@@ -29,49 +52,19 @@ This guide will help you install VSCode, Python, and GitHub Copilot on your comp
 4. Follow the installation wizard:
    - Accept the license agreement
    - Choose installation location (default is fine)
-   - **Important**: Check "Add to PATH" (allows you to open VSCode from terminal)
+   - **Important**: Check "Add to PATH" (allows you to open VSCode from [terminal](#using-the-terminal))
    - Check other options as desired (Create desktop icon, Add "Open with Code" actions)
 5. Click **Install** and wait for completion
 6. Click **Finish** to launch VSCode
 
-**Verify Installation**: Open either Command Prompt or PowerShell:
-- **Command Prompt**: Press `Win + R`, type `cmd`, and press Enter (or search for "Command Prompt" in the Start menu)
-- **PowerShell**: Press `Win + R`, type `powershell`, and press Enter (or search for "PowerShell" in the Start menu)
-
-Then type:
-```
-code --version
-```
-
-You should see the VSCode version number (e.g., `1.XX.X`).
-
 ### macOS
 
-**Option 1: Direct Download (Recommended for beginners)**
-
-1. Visit [code.visualstudio.com](https://code.visualstudio.com)
-2. Click **Download** for Mac
-3. The browser will download a `.zip` file
-4. In Finder, double-click the zip to extract it
-5. Drag the **Visual Studio Code.app** to the **Applications** folder
-6. Launch VSCode from Applications or Spotlight search (⌘ + Space, type "code")
-7. **Enable the `code` command in Terminal:**
-   - Open VSCode
-   - Press `⌘+Shift+P` to open the Command Palette
-   - Type and run **"Shell Command: Install 'code' command in PATH"**
-   - Restart your terminal
-
-**Option 2: Using Homebrew (For advanced users)**
-```bash
-brew install --cask visual-studio-code
-```
-
-**Verify Installation**: Open Terminal and type:
-```bash
-code --version
-```
-
-You should see the VSCode version number (e.g., `1.XX.X`).
+1. Visit [code.visualstudio.com](https://code.visualstudio.com) and click **Download for macOS**
+2. Double-click the downloaded file in your Downloads folder
+3. Drag the **Visual Studio Code.app** to the **Applications** folder
+4. Launch VSCode from Applications or Spotlight search (⌘ + Space, type "code")
+5. Use the Command Palette (`⌘+Shift+P`) and run **"Shell Command: Install 'code' command in PATH"** to enable opening VSCode from the [terminal](#using-the-terminal) with `code` command
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-install-path-command.png' | relative_url }})
 
 ### Linux
 
@@ -99,12 +92,13 @@ sudo dnf install code
 sudo pacman -S code
 ```
 
-**Verify Installation**: Open terminal and type:
+### Verify Installation
 ```bash
 code --version
 ```
 
-You should see the VSCode version number (e.g., `1.XX.X`).
+You should see the VSCode version number (e.g., `1.XX.X`)
+![VSCode Extensions view]({{ '/assets/images/installation-guide/terminal-vscode-version.png' | relative_url }})
 
 ---
 
@@ -120,45 +114,12 @@ You should see the VSCode version number (e.g., `1.XX.X`).
 6. Wait for installation to complete
 7. Close the installer
 
-**Verify Installation**: Open either Command Prompt or PowerShell:
-- **Command Prompt**: Press `Win + R`, type `cmd`, and press Enter (or search for "Command Prompt" in the Start menu)
-- **PowerShell**: Press `Win + R`, type `powershell`, and press Enter (or search for "PowerShell" in the Start menu)
-
-Then type:
-```
-python --version
-```
-
-You should see: `Python 3.x.x` (version number may differ)
-
 ### macOS
-
-**Option 1: Using Homebrew (Recommended)**
-
-If you don't have Homebrew installed, run:
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-Then install Python:
-```bash
-brew install python3
-```
-
-**Option 2: Direct Download**
 
 1. Visit [python.org](https://www.python.org/downloads/)
 2. Click **Download Python**
 3. Run the installer
 4. Follow the installation wizard
-5. Run the "Install Certificates.command" script if prompted
-
-**Verify Installation**: Open Terminal and type:
-```bash
-python3 --version
-```
-
-You should see: `Python 3.x.x`
 
 ### Linux
 
@@ -178,13 +139,14 @@ sudo dnf install python3 python3-pip
 sudo pacman -S python python-pip
 ```
 
-**Verify Installation**: Open terminal and type:
+### Verify Installation
 ```bash
-python --version    # Arch uses 'python' by default
-python3 --version   # Ubuntu/Debian/Fedora use 'python3'
+python --version    # Windows and Arch use 'python'
+python3 --version   # macOS/Ubuntu/Debian/Fedora use 'python3'
 ```
 
 You should see: `Python 3.x.x`
+![VSCode Extensions view]({{ '/assets/images/installation-guide/terminal-python-version.png' | relative_url }})
 
 ---
 
@@ -200,37 +162,50 @@ Once you have both VSCode and Python installed, configure them to work together.
 4. Click **Install**
 5. Wait for installation to complete
 
-You should also install:
+You may also want to install:
 
-- **Pylance** - For code intelligence (usually installs with Python extension)
-- **Pylint** - For code linting (will prompt you to install; click **Install**)
+- **Pylint** - For code linting (it checks your code for possible errors and style issues).
+
+The **Python** extension typically installs **Pylance** automatically for code intelligence.
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-extension.png' | relative_url }})
 
 ### Step 2: Create a Test Python File
 
-1. Create a new folder for your work (e.g., `python-projects`)
-2. Open that folder in VSCode: **File** → **Open Folder**
-3. Click **New File** and name it `test.py`
-4. Type:
+1. Create a new folder for your work (e.g., `python-projects` on your Desktop)
+2. Open that folder in VSCode and select the folder you created
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-open-folder.png' | relative_url }})
+3. Click **New File** and select **Python File**
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-new-file.png' | relative_url }})
+4. Type in the file:
 ```python
 print("Hello, World!")
 ```
-
-5. Save the file (`Ctrl+S` / `⌘+S`)
+5. Save the file (`Ctrl+S` / `⌘+S`) and name it `main.py`
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-main-file.png' | relative_url }})
 
 ### Step 3: Run Your First Python Program
 
-- Right-click the file and select **Run Python File in Terminal**
-- Or click the **Run** button (▷ play icon) in the top right corner of the editor
+Click the **Run** button (▷ play icon) in the top right corner of the editor
 
-You should see `Hello, World!` printed in the terminal.
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-main-run.png' | relative_url }})
+
+If that doesn't work, make sure the run configuration is set to "Run Python File" (you can select it from the dropdown next to the Run button)
+
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-main-run-debug.png' | relative_url }})
+
+VSCode will open the **[Terminal](#using-the-terminal)** panel at the bottom of the window (below the editor).
+If you do not see it, open it from **View -> Terminal**.
+You should see `Hello, World!` printed there.
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-main-output.png' | relative_url }})
 
 ### Step 4: Configure Python Interpreter (if needed)
 
-If Python doesn't work, select the correct interpreter:
+If your Python file does not run properly then select the correct interpreter:
 
 1. Press `Ctrl+Shift+P` / `⌘+Shift+P` to open Command Palette
 2. Type **"Python: Select Interpreter"**
-3. Choose the Python version you installed
+3. Choose the option that says **Python 3** (this is the Python program VSCode will use to run your code). If you see more than one, pick the newest version.
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-python-interpreter.png' | relative_url }})
 
 ---
 
@@ -249,15 +224,7 @@ If Python doesn't work, select the correct interpreter:
 2. Sign up for **GitHub Student Developer Pack**
 3. You'll get free Copilot Pro access for students
 4. Wait for approval (usually instant for students with `.edu` email)
-
-**For Others:**
-
-GitHub offers multiple access options:
-
-- **Copilot Free** (Recommended to start): No credit card required. Includes 2,000 code completions and 50 chat messages per month at no cost. Just sign in with your GitHub account in VSCode.
-- **Copilot Pro**: Starts with a **30-day free trial**, then $10/month. Includes unlimited completions and chat.
-
-Visit [github.com/features/copilot](https://github.com/features/copilot) to compare plans and sign up.
+![VSCode Extensions view]({{ '/assets/images/installation-guide/github-student-developer-pack.png' | relative_url }})
 
 ### Step 2: Install Copilot Extension in VSCode
 
@@ -266,6 +233,7 @@ Visit [github.com/features/copilot](https://github.com/features/copilot) to comp
 3. Search for **"GitHub Copilot"** (by GitHub)
 4. Click **Install**
 5. Wait for installation to complete
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-copilot-extension.png' | relative_url }})
 
 ### Step 3: Authorize GitHub Copilot
 
@@ -277,6 +245,7 @@ Visit [github.com/features/copilot](https://github.com/features/copilot) to comp
 6. Click **Open** to confirm
 
 You should now see a Copilot icon in the sidebar.
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-copilot-icon.png' | relative_url }})
 
 ### Step 4: Use Copilot
 
@@ -286,13 +255,24 @@ You should now see a Copilot icon in the sidebar.
 - It suggests completions as you code
 - Press `Tab` to accept a suggestion
 - Press `Escape` to dismiss it
-- Press `Ctrl+Enter` / `⌘+Enter` to see multiple suggestions
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-copilot-multiple-suggestions.png' | relative_url }})
 
 **Ask Copilot Questions:**
 
-- Click the **Copilot Chat** icon in the sidebar
+- Click the **Copilot Chat** icon in the top sidebar
 - Type your question (e.g., "How do I read a file in Python?")
 - Copilot will provide code examples and explanations
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-copilot-chat.png' | relative_url }})
+
+### Step 5: Enable or Disable Copilot
+
+If you want to pause Copilot suggestions, or turn them back on later, you can do it from VSCode.
+
+**Quick toggle from the status bar:**
+
+- Click the Copilot icon in the bottom status bar
+- Choose whether to disable or enable suggestions
+![VSCode Extensions view]({{ '/assets/images/installation-guide/vscode-copilot-enable-disable.png' | relative_url }})
 
 ---
 
@@ -302,24 +282,36 @@ You should now see a Copilot icon in the sidebar.
 
 **Windows:**
 
-- Try opening PowerShell and typing: `code`
+- Try running the following command on the [terminal](#using-the-terminal):
+```bash
+code
+```
 - If that fails, uninstall and reinstall VSCode
 - Make sure you selected "Add to PATH" during installation
 
 **macOS:**
 
-- Try: `open /Applications/Visual\ Studio\ Code.app`
-- To enable the `code` command in Terminal, use the built-in VSCode method:
-  1. Open VSCode
-  2. Press `⌘+Shift+P` to open the Command Palette
-  3. Type and run **"Shell Command: Install 'code' command in PATH"**
-  4. Restart your terminal
+- Try running the following command on the [terminal](#using-the-terminal):
+```bash
+open /Applications/Visual\ Studio\ Code.app
+```
+- To enable the `code` command in [Terminal](#using-the-terminal), open the Command Palette (`⌘+Shift+P`), run **"Shell Command: Install 'code' command in PATH"**, and restart your [terminal](#using-the-terminal)
 
 **Linux:**
 
 - Use your package manager to reinstall: `sudo apt install --reinstall code` (Ubuntu)
 
 ### Python Not Found
+
+This appears in the [terminal](#using-the-terminal) when you run a Python command, but your system does not know where Python is.
+This usually means one of three things:
+- Python is not installed
+- You used the wrong command (`python` vs `python3`)
+- Python is installed but not added to your PATH.
+
+Example messages:
+- Windows: `'python' is not recognized...`
+- macOS/Linux: `command not found: python` or `python3: command not found`
 
 **Windows:**
 
@@ -330,30 +322,28 @@ You should now see a Copilot icon in the sidebar.
   4. Under "User variables", click **New**
   5. Variable name: `PATH`
   6. Variable value: `C:\Users\YourUsername\AppData\Local\Programs\Python\Python312` (adjust version number)
-  7. Click **OK** and restart
+     - Replace `YourUsername` with your Windows account name.
+   - To find it, open [Command Prompt](#using-the-terminal) and run: `echo %USERNAME%`
+     - Example: if the command shows `aboud`, use `C:\Users\aboud\AppData\Local\Programs\Python\Python312`
+   7. Click **OK**, then restart both the [terminal](#using-the-terminal) and VSCode
 
 **macOS:**
 
-- In most cases, `brew install python3` sets up the correct symlinks automatically. If `python3` still isn't found, run:
+Add Python to your PATH manually. The command is different depending on your Mac type:
+
+- **Apple Silicon (M1/M2/M3/M4):** run:
 ```bash
-  brew link python3
+echo 'export PATH="/opt/homebrew/opt/python@3.12/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
-- If you need to add it to PATH manually, the path depends on your Mac's chip:
-
-  - **Apple Silicon (M1/M2/M3/M4):**
+- **Intel Mac:** run:
 ```bash
-    echo 'export PATH="/opt/homebrew/opt/python@3.12/bin:$PATH"' >> ~/.zshrc
-    source ~/.zshrc
+echo 'export PATH="/usr/local/opt/python@3.12/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
-  - **Intel Mac:**
-```bash
-    echo 'export PATH="/usr/local/opt/python@3.12/bin:$PATH"' >> ~/.zshrc
-    source ~/.zshrc
-```
-
-- Replace `3.12` with your installed Python version in either case.
+- Replace `3.12` with the Python version you installed.
 
 **Linux:**
 
@@ -362,13 +352,26 @@ You should now see a Copilot icon in the sidebar.
 
 ### VSCode Can't Find Python
 
+This issue happens when VSCode is installed correctly, but it cannot detect a usable Python interpreter for your workspace.
+
+Common signs include:
+- At the bottom of VSCode (the bottom horizontal strip, called the status bar), you do not see a Python version selected (for example, `Python 3.12`).
+- When you try to run a `.py` file, VSCode asks you to select an interpreter, or shows errors like "Python interpreter is invalid/not found".
+- Helpful coding features stop working, such as code suggestions/autocomplete (IntelliSense) and warnings for possible mistakes (linting).
+
+Typical causes:
+- Python is not installed (or installation is incomplete).
+- VSCode is pointing to an old or removed interpreter path.
+- The Python extension is not installed or not fully activated.
+- The interpreter exists, but VSCode has not selected it for this workspace.
+
 1. Press `Ctrl+Shift+P` / `⌘+Shift+P`
 2. Type **"Python: Select Interpreter"**
 3. Choose the correct Python installation
 4. If you don't see any options:
    - Close VSCode
-   - **Windows**: Open Command Prompt and verify `python --version` works
-   - **macOS/Linux**: Open Terminal and verify `python3 --version` works
+   - **Windows**: make sure `python --version` produces a Python 3 number
+   - **macOS/Linux**: make sure `python3 --version` produces a Python 3 number
    - Reopen VSCode
 
 ### Copilot Not Appearing
@@ -385,27 +388,6 @@ You should now see a Copilot icon in the sidebar.
    - Click the three dots and select **Uninstall**
    - Restart VSCode
    - Reinstall Copilot
-
-### "Module Not Found" Error
-
-When running Python files:
-```
-ModuleNotFoundError: No module named '...'
-```
-
-**Solution:**
-
-1. Install the missing module using pip:
-```bash
-   pip install module_name
-```
-
-   (or `pip3` on macOS/Linux)
-
-2. Make sure your Python interpreter in VSCode matches where you installed packages:
-   - Press `Ctrl+Shift+P` / `⌘+Shift+P`
-   - Type **"Python: Select Interpreter"**
-   - Choose the correct interpreter
 
 ### Keyboard Shortcuts Not Working
 
@@ -430,10 +412,10 @@ If `Ctrl+Shift+X` doesn't work to open Extensions:
    - Make sure you have internet connection
 2. **Get help:**
    - Visit [VSCode Docs](https://code.visualstudio.com/docs)
-   - Search [GitHub Issues](https://github.com/microsoft/vscode/issues)
-   - Ask on [Stack Overflow](https://stackoverflow.com) or your course forum
+   - Ask an AI coding agent (e.g., GitHub Copilot Chat in VS Code)
+   - Ask on Ed if you still need help
 3. **Installation verification:**
-   - Open Terminal/PowerShell in VSCode (press `` Ctrl+` ``)
+   - Open a [terminal](#using-the-terminal) in VSCode (press `` Ctrl+` `` or `` ⌃+` ``)
    - Type: `python --version` (or `python3` on Mac/Linux)
    - Type: `pip --version` (or `pip3`)
    - Type: `code --version`
@@ -441,27 +423,7 @@ If `Ctrl+Shift+X` doesn't work to open Extensions:
 
 ---
 
-## Quick Reference
-
-### Essential Commands
-```bash
-# Check versions
-python --version          # (or python3 on Mac/Linux)
-pip --version             # (or pip3 on Mac/Linux)
-code --version
-
-# Install packages
-pip install package_name  # (or pip3 on Mac/Linux)
-
-# Open folder in VSCode
-code .                    # (. means current folder)
-code /path/to/folder
-
-# Run Python file
-python file.py            # (or python3 on Mac/Linux)
-```
-
-### Keyboard Shortcuts
+## VSCode Keyboard Shortcuts
 
 | Action          | Windows/Linux  | macOS        |
 |-----------------|----------------|--------------|
