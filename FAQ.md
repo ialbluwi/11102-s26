@@ -72,5 +72,15 @@ description: >-
   <summary>I don't want to move permanently to another section, but I need to attend one or two lectures in another section. </summary>
   Your attendance will be recorded in the section you are officially signed up for. However, if you know you are going to miss your section's lecture but want to make them lecture up with another section (so that you don't miss the material), you can reach out to the instructor of the section you want to attend and ask them if you can attend. See the <a href="/11102-f25/staff">Staff</a> page to know which instructors teach which sections.
 </details>
+
 </div>
 
+## Tools
+
+<div class="faq-page">
+<details class="jtd-accordion">
+  <summary>I'm having issues with installation (Python, VSCode, or GitHub Copilot).</summary>
+  First, check the <a href="/11102-s26/installation-guide">Installation Guide</a> for step-by-step instructions for your operating system. If you've followed the guide and are still experiencing issues, please post a help request on Ed so that one of the TAs can get in touch with you.
+</details>
+
+</div>
