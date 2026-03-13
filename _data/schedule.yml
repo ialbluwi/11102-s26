@@ -81,11 +81,6 @@ su_tue_thu:
       : [P4E.6](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf#page=79), 
       [Examples](/11102-s26/lessons/strings)
 
-    3
-    : <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 1em;border-radius:6px;display:inline-block;font-size:0.8em;">EID BREAK</span>
-    
-    HW
-    : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
   end_date: Mar 21
   start_date: Mar 15
   title: <b>Week 5</b> (Strings + Lists)
@@ -94,16 +89,19 @@ su_tue_thu:
     : <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 1em;border-radius:6px;display:inline-block;font-size:0.8em;">EID BREAK</span>
 
     2
-    : **Quiz # 1**{:.label .label-red }
-
-    3
     : Lists (Basics)
       : [TP.9](https://allendowney.github.io/ThinkPython/chap09.html) (excluding TP.9.12), 
       [Visualization](/11102-s26/lesson-plans/images/lists-viz.png), [Indexing](/11102-s26/lesson-plans/images/list-indexing.png)
 
+    3
+    : **Quiz # 1**{:.label .label-red }
+
+    HW
+    : [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/95984/lessons/159734) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/95984/lessons/159735)
+
   end_date: Mar 28
   start_date: Mar 22
-  title: <b>Week 6</b> (No Class)
+  title: <b>Week 6</b> (Lists + Quiz)
 - content: |
     1
     : Lists (practice 1)
@@ -121,7 +119,7 @@ su_tue_thu:
     : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
   end_date: Mar 28
   start_date: Mar 22
-  title: <b>Week 6</b> (Lists)
+  title: <b>Week 7</b> (Lists)
 - content: |
     1
     : Aliasing vs. Copying
@@ -139,7 +137,7 @@ su_tue_thu:
     : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
   end_date: Apr 04
   start_date: Mar 29
-  title: <b>Week 7</b> (2D Lists + Dictionaries)
+  title: <b>Week 8</b> (2D Lists + Dictionaries)
 - content: |
     1
     : Introduction to Sofware Engineering
@@ -157,7 +155,7 @@ su_tue_thu:
     : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
   end_date: Apr 11
   start_date: Apr 5
-  title: <b>Week 8</b> (Testing & SE)
+  title: <b>Week 9</b> (Testing & SE)
 - content: |
     1
     : Program Efficiency
@@ -171,7 +169,7 @@ su_tue_thu:
     : Review
   end_date: Apr 18
   start_date: Apr 12
-  title: <b>Week 9</b> (Midterms + Algorithms)
+  title: <b>Week 10</b> (Midterms + Algorithms)
 - content: |
     1
     : Number Systems
@@ -189,7 +187,7 @@ su_tue_thu:
     : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
   end_date: Apr 25
   start_date: Apr 19
-  title: <b>Week 10</b> (Data Representation)
+  title: <b>Week 11</b> (Data Representation)
 - content: |
     1
     : Encryption
@@ -207,7 +205,7 @@ su_tue_thu:
     : [**Exercises**{:.label .label-purple }](#) [**Self-Assessment**{:.label .label-green }](#)
   end_date: May 02
   start_date: Apr 26
-  title: <b>Week 11</b> (Security)
+  title: <b>Week 12</b> (Security)
 - content: |
     1
     : Colors & Image + [**Quiz # 2**{:.label .label-red }](#)
@@ -220,7 +218,7 @@ su_tue_thu:
 
   end_date: May 09
   start_date: May 3
-  title: <b>Week 12</b> (Images & Animation)
+  title: <b>Week 13</b> (Images & Animation)
 - content: |
     1
     : Machine Learning
