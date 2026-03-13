@@ -83,7 +83,7 @@ su_tue_thu:
 
   end_date: Mar 21
   start_date: Mar 15
-  title: <b>Week 5</b> (Strings + Lists)
+  title: <b>Week 5</b> (Strings)
 - content: |
     1
     : <span style="background:#333;color:#fff;font-weight:700;padding:0.1em 1em;border-radius:6px;display:inline-block;font-size:0.8em;">EID BREAK</span>
@@ -101,7 +101,7 @@ su_tue_thu:
 
   end_date: Mar 28
   start_date: Mar 22
-  title: <b>Week 6</b> (Lists + Quiz)
+  title: <b>Week 6</b> (List Basics)
 - content: |
     1
     : Lists (practice 1)
