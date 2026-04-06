@@ -8,7 +8,7 @@ description: >-
 # Extra Resources
 
 ## Previous Exams
-- **Midterm Exam**: Fall 2025 [[pdf](), [solution]()]
+- **Midterm Exam**: Fall 2025 [[pdf](https://drive.google.com/file/d/1e2TldZW79hk20I9Jd0RL3eeyGgA7boqM/view?usp=sharing), [solution](https://drive.google.com/file/d/1KpnPTTQI-ExozB7OutbRl3BXksS6D-yv/view?usp=sharing)]
 - **Quiz 1**: Fall 2025 [[pdf](https://drive.google.com/file/d/1E18VkzHBfq5AEK6ZYb095t4eYX8rVEf6/view?usp=sharing), [solution](https://drive.google.com/file/d/1z7PvUPi_RhVb3tBjExySZMxW6zDdRcfc/view?usp=drive_link)], Spring 2026 [[pdf](https://drive.google.com/file/d/1Ps3JioYR0ivV2Qd8tFyoNuCiuRzl_zKr/view?usp=drive_link), [solution](https://drive.google.com/file/d/1ygX__FA-nc7mZCLfbQ-YmAr6IizPGdbk/view?usp=drive_link)]
 - **Quiz 2**: Fall 2025 [[pdf](https://drive.google.com/file/d/1iuwAg2kEzxFnWl1431kyJ7DMh1rxIm17/view?usp=sharing), [solution](https://drive.google.com/file/d/1mkyiZEryPwYhB5kYPSmrV9v0z52LPa4h/view?usp=sharing)]
 - **Final Exam**: Fall 2025
