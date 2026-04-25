@@ -167,7 +167,7 @@ Now, let's fix the error in our `calculator.py` and run `pytest test_calculator.
 
 ## Organizing Tests
     
-At the moment, it is not ideal that `pytest` will stop running after the first failed test. This is not ideal. To improve our test code, let’s modify `test_calculator.py` to divide the code into different groups of tests:
+At the moment, `pytest` stops running after the first failed test. This is not ideal. To improve our test code, let’s modify `test_calculator.py` to divide the code into different groups of tests:
     
 ```python
 from calculator import square
@@ -184,7 +184,7 @@ def test_zero():
     assert square(0) == 0
 ```
     
-Notice that we have divided the same five tests into three different functions. Testing frameworks like `pytest` will automatically run each function (without having to write code that calls them). Even if there was a failure in one of functions, `pytest` still runs all the other functions. 
+Notice that we have divided the same five tests into three different functions. Testing frameworks like `pytest` will automatically run each function (without having to write code that calls them). Even if there was a failure in one of the functions, `pytest` still runs all the other functions. 
 
 Modify `calculator.py` back to the buggy code and then run `pytest test_calculator.py`. You will notice that many more errors are being displayed. More error output allows you to further explore what might be producing the problems within your code.
 
