@@ -182,17 +182,31 @@ su_tue_thu:
     : Data Representation 1
         : [Notes](/11102-s26/lessons/bits/)<br>
 
-    3
-    : Data Representation 2
-        : [Notes](/11102-s26/lessons/negative/)
-
     HW
-    : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
+    : [**Exercises**{:.label .label-purple }](https://edstem.org/us/courses/95984/lessons/165683/slides/971143) [**Self-Assessment**{:.label .label-green }](https://edstem.org/us/courses/95984/lessons/165684/slides/971147)
   end_date: May 02
   start_date: Apr 26
   title: <b>Week 11</b> (Data Representation)
 - content: |
     1
+    : Data Representation 2
+        : [Notes](/11102-s26/lessons/negative/)    
+    
+    2
+    : Colors & Image
+      : [Notes](/11102-s26/lessons/images)
+
+    3
+    : Image Manipulation & Animation
+      : [Notes](/11102-s26/lessons/images-python)
+
+    HW
+    : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
+  end_date: May 09
+  start_date: May 3
+  title: <b>Week 12</b> (Security)
+- content: |
+    1
     : Encryption
         : [Notes](/11102-s26/lessons/encryption/)
 
@@ -201,26 +215,12 @@ su_tue_thu:
         : [Notes](/11102-s26/lessons/encryption/)
 
     3
-    : passwords
+    : passwords + [**Quiz # 2**{:.label .label-red }](#)
         : [Notes](/11102-s26/lessons/passwords/)
 
     HW
     : [**Exercises**{:.label .label-purple }](#) [**Self-Assessment**{:.label .label-green }](#)
-  end_date: May 09
-  start_date: May 3
-  title: <b>Week 12</b> (Security)
-- content: |
-    1
-    : Colors & Image + [**Quiz # 2**{:.label .label-red }](#)
-      : [Notes](/11102-s26/lessons/images)
 
-
-    2
-    : Image Manipulation & Animation
-      : [Notes](/11102-s26/lessons/images-python)
-
-    HW
-    : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
   end_date: May 16
   start_date: May 10
   title: <b>Week 13</b> (Images & Animation)
