@@ -204,7 +204,7 @@ su_tue_thu:
     : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
   end_date: May 09
   start_date: May 3
-  title: <b>Week 12</b> (Security)
+  title: <b>Week 12</b> (Images & Animation)
 - content: |
     1
     : Encryption
@@ -223,7 +223,7 @@ su_tue_thu:
 
   end_date: May 16
   start_date: May 10
-  title: <b>Week 13</b> (Images & Animation)
+  title: <b>Week 13</b> (Security)
 - content: |
     1
     : Machine Learning
