@@ -39,7 +39,7 @@ h3 {
 
 ## Representing Negative Numbers
 
-There are multiple ways to represent negative numbers in binary. The most straightforward way is to use dedicate the most significant bit (MSB) as a sign bit.
+There are multiple ways to represent negative numbers in binary. The most straightforward way is to dedicate the most significant bit (MSB) as a sign bit.
 
 **Example:** If we are using a byte (8 bits) to store the number **-5**, we can represent it as `10000101`:
 
@@ -185,12 +185,31 @@ When adding two's complement numbers, you can use the same binary addition rules
 
 **Example 1:** Let's add `5` and `-3` using 8-bit two's complement, assuming each number is stored in 4 bits.
 
-```  
- 5 in two's complement:  0101
--3 in two's complement:  1101 +
-                         ----
-                         0010  (which is 2 in decimal)
+```                                                                 
+                            1          1       1 1      1 1 1   <-- carry bits
+ 5 in 2's complement:     0101       0101      0101       0101
+-3 in 2's complement:  +  1101  -->  1101  --> 1101  -->  1101
+                          ----       ----      ----       ----
+                             0         10       010       0010
 ```
+
+As you can see, the final result is `0010`, which is `2` in decimal. This is the correct answer since `5 + (-3) = 2`. Note that we discarded the last carry bit, because we only have 4 bits to store the result.
+
+{: .important-title }
+> ADDING BINARY NUMBERS
+>
+> Keep in mind the following rules when adding binary numbers:
+> - `0 + 0 = 0`
+>
+> - `0 + 1 = 1`
+>
+> - `1 + 0 = 1`
+>
+> - `1 + 1 = 0` (and carry `1` because `1 + 1` is `2`, which is `10` in binary)
+>
+> - `1 + 1 + 1 = 1` (and carry `1` because `1 + 1 + 1` is `3`, which is `11` in binary)
+>
+> - If there is a carry out of the most significant bit, it is discarded in two's complement addition.
 
 **Example 2:** Let's add `-4` and `-3` using 5-bit two's complement.
 
