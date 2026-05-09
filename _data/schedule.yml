@@ -193,7 +193,7 @@ su_tue_thu:
         : [Notes](/11102-s26/lessons/negative/)    
     
     2
-    : Colors & Image
+    : Colors & Images
       : [Notes](/11102-s26/lessons/images)
 
     3
@@ -211,15 +211,12 @@ su_tue_thu:
         : [Notes](/11102-s26/lessons/encryption/)
 
     2
-    : Encryption
-        : [Notes](/11102-s26/lessons/encryption/)
-
-    3
-    : passwords + [**Quiz # 2**{:.label .label-red }](#)
+    : Passwords
         : [Notes](/11102-s26/lessons/passwords/)
 
-    HW
-    : [**Exercises**{:.label .label-purple }](#) [**Self-Assessment**{:.label .label-green }](#)
+    3
+    : [**Quiz # 2**{:.label .label-red }](#)
+        
 
   end_date: May 16
   start_date: May 10
@@ -236,8 +233,7 @@ su_tue_thu:
     3
     : Machine Learning
         : [Part 3](/11102-s26/lessons/ml3)
-    HW
-    : [**Exercises**{:.label .label-purple }](?) [**Self-Assessment**{:.label .label-green }](?)
+
   end_date: May 23
   start_date: May 17
   title: <b>Week 14</b> (AI & Data Science)
